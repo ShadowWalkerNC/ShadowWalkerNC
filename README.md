@@ -23,39 +23,12 @@
 
 <!-- TYPING ANIMATION -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Self-taught+developer+since+%7E2017;10%2B+years+in+professional+kitchens;Building+the+software+food+ops+actually+need;Co-founding+Half+Baked+Caf%C3%A9+%26+Bakehouse+(2027);Concrete+Random+%E2%80%94+connects+dots+others+miss" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Self-taught+developer+since+~2017;Building+the+software+food+ops+actually+need;TypeScript+%7C+Python+%7C+Kotlin+%7C+React+%7C+Supabase;POS+%C2%B7+KDS+%C2%B7+Inventory+%C2%B7+AI+%C2%B7+MCP+Servers;Concrete+Random+%E2%80%94+connects+dots+others+miss" />
 </p>
 
 ---
 
-## 🧑‍🍳 Who I Am
-
-I'm **Nate** — a cook-turned-developer from Bangor, Maine. I've spent 10+ years in professional kitchens across Maine: resort banquets at the Samoset, scratch breakfast at Boynton McKay, Italian fine dining at Ports of Italy, sous chef on a food truck, and now a shift cook at an assisted living facility managing residents with specialized dietary needs. That's not background noise — it's the reason everything I build exists.
-
-I'm self-taught. No CS degree, no bootcamp. I learned to code the same way I learned to cook: by jumping in, breaking things, and figuring it out. My thinking style is **Concrete Random** — intuitive, experimental, cross-domain. I connect dots others miss. I thrive in early-stage chaos and get bored fast with linear processes.
-
-> *Outlaw Country meets Soul. Grit & Grace. That's the aesthetic — in food and in code.*
-
----
-
-## 🌉 The Bridge: Why Food + Software
-
-```
- KITCHEN PAIN POINT                        WHAT I BUILT
- ┌───────────────────────────────┐   ┌───────────────────────────────┐
- | Recipe scaling tools don't exist  | → | RecipeOS (Kotlin, Android)         |
- | Restaurant software is overpriced  | → | CulinaryOS (React, Supabase)        |
- | Social media takes too much time   | → | Post-Pilot (Python, Meta API)       |
- | AI doesn't reach small operators   | → | PrepFlow + RestRevive-AI            |
- | I'm opening a real café in 2027    | → | The whole ecosystem runs it         |
- └───────────────────────────────┘   └───────────────────────────────┘
-```
-
-This isn't a portfolio of random projects. It's an interconnected ecosystem — **CulinaryOS** as the ERP core, **RecipeOS** as the kitchen tool, **Post-Pilot** as the marketing layer, **NexCMS** as the website builder. Built by someone who has worked every station and closed every shift.
-
----
-
-## 🛠️ My Stack & Why
+## 🛠️ Stack
 
 <table>
   <tr>
@@ -63,33 +36,28 @@ This isn't a portfolio of random projects. It's an interconnected ecosystem — 
       <img src="https://skillicons.dev/icons?i=ts" width="48" /><br/><sub><b>TypeScript</b></sub><br/><sub>Primary language</sub>
     </td>
     <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=js" width="48" /><br/><sub><b>JavaScript</b></sub><br/><sub>Web & scripting</sub>
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=python" width="48" /><br/><sub><b>Python</b></sub><br/><sub>AI & automation</sub>
+      <img src="https://skillicons.dev/icons?i=python" width="48" /><br/><sub><b>Python</b></sub><br/><sub>Flask · AI · automation</sub>
     </td>
     <td align="center" width="100">
       <img src="https://skillicons.dev/icons?i=kotlin" width="48" /><br/><sub><b>Kotlin</b></sub><br/><sub>Android / mobile</sub>
     </td>
     <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=react" width="48" /><br/><sub><b>React</b></sub><br/><sub>UI framework</sub>
+      <img src="https://skillicons.dev/icons?i=react" width="48" /><br/><sub><b>React 18</b></sub><br/><sub>UI framework</sub>
     </td>
     <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=supabase" width="48" /><br/><sub><b>Supabase</b></sub><br/><sub>Backend / DB</sub>
+      <img src="https://skillicons.dev/icons?i=supabase" width="48" /><br/><sub><b>Supabase</b></sub><br/><sub>Postgres · Auth · Realtime</sub>
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=vercel" width="48" /><br/><sub><b>Vercel</b></sub><br/><sub>Deploy · Cron</sub>
     </td>
     <td align="center" width="100">
       <img src="https://skillicons.dev/icons?i=androidstudio" width="48" /><br/><sub><b>Android Studio</b></sub><br/><sub>Mobile IDE</sub>
     </td>
     <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=vercel" width="48" /><br/><sub><b>Vercel</b></sub><br/><sub>Deploy</sub>
-    </td>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=notion" width="48" /><br/><sub><b>Notion</b></sub><br/><sub>Second brain</sub>
+      <img src="https://skillicons.dev/icons?i=vite" width="48" /><br/><sub><b>Vite</b></sub><br/><sub>Frontend build</sub>
     </td>
   </tr>
 </table>
-
-> I don't pick technologies for résumé padding. I pick what solves the problem. Supabase = Postgres power with zero-backend overhead. Kotlin = native Android performance in a kitchen environment. Anthropic API = best reasoning quality for domain-specific food ops outputs.
 
 ---
 
@@ -100,24 +68,31 @@ This isn't a portfolio of random projects. It's an interconnected ecosystem — 
 <table>
   <tr>
     <th>Project</th>
-    <th>What It Solves</th>
+    <th>What It Does</th>
     <th>Stack</th>
     <th>Status</th>
     <th>Links</th>
   </tr>
   <tr>
     <td><b>CulinaryOS</b></td>
-    <td>Full restaurant ERP — recipes, inventory, menus, cost control</td>
-    <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" /></td>
-    <td>🟡 In Dev</td>
+    <td>Web-based SaaS restaurant OS — POS · KDS · Inventory · Payments · Online Ordering · MCP servers · Ratio Blueprint Engine</td>
+    <td><img src="https://skillicons.dev/icons?i=ts,react,supabase" height="20" title="TypeScript · React 18 · Hono · Supabase · Turborepo" /></td>
+    <td>🟡 Phase 0–8</td>
     <td><a href="https://github.com/ShadowWalkerNC/CulinaryOS">GitHub</a></td>
   </tr>
   <tr>
     <td><b>RecipeOS</b></td>
-    <td>Recipe scaling, unit conversion, kitchen management for real cooks</td>
-    <td><img src="https://skillicons.dev/icons?i=kotlin,androidstudio" height="20" /></td>
+    <td>Android companion for CulinaryOS — recipe scaling, prep list generation, Ratio Blueprint Engine on-device</td>
+    <td><img src="https://skillicons.dev/icons?i=kotlin,androidstudio" height="20" title="Kotlin · Jetpack Compose · Room · Supabase-kt" /></td>
     <td>🟡 In Dev</td>
     <td><a href="https://github.com/ShadowWalkerNC/RecipeOS">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><b>Post-Pilot</b></td>
+    <td>AI-generated F&B social posts → Facebook & Instagram via Meta Graph API. Flask SaaS with Stripe billing, magic-link auth, Vercel Cron</td>
+    <td><img src="https://skillicons.dev/icons?i=python,vercel,supabase" height="20" title="Python · Flask · Supabase (SQLAlchemy) · Stripe · Anthropic · Vercel Cron" /></td>
+    <td>✅ Live — Phase 5</td>
+    <td><a href="https://github.com/ShadowWalkerNC/Post-Pilot">GitHub</a> · <a href="https://post-pilot-opal.vercel.app">Live</a></td>
   </tr>
   <tr>
     <td><b>PrepFlow</b></td>
@@ -125,13 +100,6 @@ This isn't a portfolio of random projects. It's an interconnected ecosystem — 
     <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" /></td>
     <td>🟤 Planning</td>
     <td>—</td>
-  </tr>
-  <tr>
-    <td><b>Post-Pilot</b></td>
-    <td>Automated F&B social posts → Facebook & Instagram via Meta API</td>
-    <td><img src="https://skillicons.dev/icons?i=python" height="20" /></td>
-    <td>✅ Live</td>
-    <td><a href="https://github.com/ShadowWalkerNC/Post-Pilot">GitHub</a> · <a href="https://post-pilot-opal.vercel.app">Live</a></td>
   </tr>
   <tr>
     <td><b>Cheezies Gourmet</b></td>
@@ -147,7 +115,7 @@ This isn't a portfolio of random projects. It's an interconnected ecosystem — 
 <table>
   <tr>
     <th>Project</th>
-    <th>What It Solves</th>
+    <th>What It Does</th>
     <th>Stack</th>
     <th>Status</th>
     <th>Links</th>
@@ -161,7 +129,7 @@ This isn't a portfolio of random projects. It's an interconnected ecosystem — 
   </tr>
   <tr>
     <td><b>NexCMS</b></td>
-    <td>Custom website builder for restaurants — no dev required</td>
+    <td>Website builder for restaurants — no dev required</td>
     <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" /></td>
     <td>🟡 In Dev</td>
     <td><a href="https://github.com/ShadowWalkerNC/NexCMS">GitHub</a></td>
@@ -184,6 +152,58 @@ This isn't a portfolio of random projects. It's an interconnected ecosystem — 
 
 ---
 
+## 🏗️ CulinaryOS — Architecture Snapshot
+
+```
+pnpm Monorepo (Turborepo)
+├── apps/pos      React 18 · Vite  — tablet POS for servers
+├── apps/kds      React 18 · Vite  — real-time kitchen display
+├── apps/admin    React 18 · Vite  — back office, reporting, inventory
+├── apps/web      React 18 · Vite  — public menu + online ordering
+├── services/api  Hono · Node 20   — single API gateway
+├── packages/
+│   ├── @culinaryos/ratio-engine   ← THE differentiator (pure TS, zero deps)
+│   ├── @culinaryos/db             Supabase client + generated types
+│   ├── @culinaryos/event-bus      Typed in-process event emitter
+│   ├── @culinaryos/ui             Shared React components (shadcn base)
+│   ├── @culinaryos/auth           Auth context + session helpers
+│   └── @culinaryos/config         Env schema, feature flags
+├── mcp/                           Domain MCP servers (TypeScript · MCP SDK)
+├── mobile/recipeos                Android companion (Kotlin · Jetpack Compose · Room)
+└── supabase/                      V1–V12 migrations + Edge Functions (Deno · Resend)
+
+Backend: Supabase (PostgreSQL · Realtime · Auth · RLS)
+Payments: Stripe Elements + Terminal (Phase 11)
+AI: Anthropic Claude (claude-sonnet) — cloud-only
+```
+
+> **Ratio Blueprint Engine** — Every other POS stores `bread_flour: 500g`. CulinaryOS stores `bread_flour: 100%` (baker's percentage) and understands the *relationship*. True prep scaling, food cost projection, and AI menu assistance — nothing else does this.
+
+---
+
+## 🔧 Post-Pilot — Architecture Snapshot
+
+```
+Flask 3.x (Python 3.11+) · Vercel serverless
+├── blueprints/         One file per domain (auth, dashboard, generate,
+│                       publish, scheduler, cron, billing, onboarding)
+├── modules/            Shared services (Claude API, Meta Graph API,
+│                       SQLAlchemy models, Stripe, JWT, Redis rate limiting)
+├── templates/          Jinja2 + Tailwind CSS
+├── alembic/            Forward-only DB migrations
+└── /api/cron/publish   Vercel Cron endpoint (HMAC-authenticated, fires every minute)
+
+Database:  Supabase PostgreSQL via SQLAlchemy + psycopg2
+Auth:      Magic link email (Flask-Mail + JWT — no passwords)
+AI:        Anthropic Claude (claude-3-5-sonnet) for post generation
+Payments:  Stripe subscription billing (Starter / Pro / Agency)
+Observability: Sentry
+Rate limiting: Flask-Limiter + Upstash Redis
+CI/CD:     GitHub Actions (ruff + pytest)
+```
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -201,22 +221,33 @@ This isn't a portfolio of random projects. It's an interconnected ecosystem — 
 
 ---
 
-## 📅 Experience Timeline
+## 🌉 The Bridge
 
 ```
-2014  ─▶  Samoset Resort — first kitchen role (banquets, resort cooking)
-2016  ─▶  Barley Bean / Mour Café — barista & shift supervisor
-2017  ─▶  Staples — tech supervisor (IP networking, customer support)
-        └─ Started teaching myself to code
-2019  ─▶  Boynton McKay — scratch breakfast (iconic Maine café)
-2020  ─▶  Ports of Italy — sous chef, Italian fine dining
-2022  ─▶  Daddy B’s Food Truck — mobile kitchen sous chef
-2023  ─▶  Co-founded Northern Fixin’s / Half Baked Co. (w/ Tori & Joseph)
-2024  ─▶  Ross Manor — dietary cook, assisted living
-        └─ Full-time software builds begin under CulinaryOS umbrella
-2026  ─▶  Post-Pilot, Cheezies Gourmet live ─ ShadowRealm, RecipeOS in dev
-2027  ─▶  Half Baked Café & Bakehouse — brick & mortar target open 🍰
-        └─ Alley Katz food truck concept
+ KITCHEN PROBLEM                            WHAT I BUILT
+ ┌────────────────────────────────┐   ┌──────────────────────────────────────┐
+ | No true recipe ratio engine    | → | Ratio Blueprint Engine (CulinaryOS)   |
+ | POS software costs $300+/mo    | → | CulinaryOS — full SaaS OS, open core  |
+ | No Android prep tool exists    | → | RecipeOS (Kotlin · Jetpack Compose)   |
+ | Social media eats shift time   | → | Post-Pilot (Python · Flask · Meta API)|
+ | AI doesn't reach small ops     | → | MCP server layer on CulinaryOS        |
+ └────────────────────────────────┘   └──────────────────────────────────────┘
+```
+
+---
+
+## 📅 Timeline
+
+```
+2014  ─▶  First kitchen role (Samoset Resort — banquets)
+2017  ─▶  Staples tech supervisor → started teaching myself to code
+2019  ─▶  Boynton McKay (scratch breakfast)
+2020  ─▶  Ports of Italy (Italian fine dining, sous chef)
+2022  ─▶  Daddy B's Food Truck (mobile kitchen sous chef)
+2023  ─▶  Co-founded Northern Fixin's / Half Baked Co.
+2024  ─▶  Ross Manor dietary cook · Full-time software builds begin
+2026  ─▶  Post-Pilot live · CulinaryOS active dev · RecipeOS in dev
+2027  ─▶  Half Baked Café & Bakehouse — target open 🍰
 ```
 
 ---
