@@ -3,6 +3,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=ShadowWalkerNC&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Cook.+Builder.+Founder.+AI-Native+from+the+ground+up.&descAlignY=60&descSize=16" width="100%" />
 </div>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ShadowWalkerNC/ShadowWalkerNC/main/assets/Shadow-Realm.PNG" width="90" />
+</div>
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ShadowWalkerNC&style=for-the-badge&color=6e40c9" />
   &nbsp;
