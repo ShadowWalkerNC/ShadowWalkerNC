@@ -183,13 +183,17 @@
   </tr>
   <tr>
     <td>
-      <b>Shoreline</b><br/>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-      <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+      <b>Shoreline</b> 🏠<br/>
+      <img src="https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
       <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white"/>
     </td>
-    <td>Senior living facility management — resident records, dining menus, maintenance ticketing, budget tracking, multi-role dashboards (Staff · Admin · HQ)</td>
-    <td>🟡 In Dev</td>
+    <td>Senior living facility operations platform — resident records, dietary management, menu planning, production worksheets, maintenance ticketing, staff scheduling, budget tracking, multi-role access (Staff · Admin · HQ). <strong>v4 stable in production · v5 rebuild in progress</strong> — porting from vanilla JS to React + Vite + TypeScript + Tailwind → PostgreSQL + Prisma → Next.js. Built to scale to multi-facility SaaS.</td>
+    <td>🟡 v5 Rebuild</td>
     <td><a href="https://github.com/ShadowWalkerNC/Shoreline">GitHub</a></td>
   </tr>
 </table>
