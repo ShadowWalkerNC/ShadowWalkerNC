@@ -27,7 +27,7 @@
 
 ## 👤 About
 
-I'm **Nate** — a self-taught developer and professional cook from Bangor, Maine. After 10+ years working every station in professional kitchens, I started building the software food operators actually need. The ecosystem is built around **CulinaryOS** — a full web-based restaurant SaaS (POS, KDS, Inventory, Payments, Reservations, Online Ordering) — supported by **KitchenKit** (recipe + prep planning, standalone or bridged), **CulinaryOps** (operations intelligence dashboard), and **Post-Pilot** (AI social media for F&B). Everything I build is either running in a real kitchen or will be when I open [Half Baked Café & Bakehouse](https://github.com/ShadowWalkerNC) in 2027. All four products communicate via their own MCP servers — AI-native from the ground up.
+I'm **Nate** — a self-taught developer and professional cook from Bangor, Maine. After 10+ years working every station in professional kitchens, I started building the software food operators actually need. The ecosystem is built around **CulinaryOS** — a full web-based restaurant SaaS (POS, KDS, Inventory, Payments, Reservations, Online Ordering) — supported by **KitchenKit** (recipes · meal planning · pantry · shopping · nutrition, standalone or bridged), **CulinaryOps** (B2B back-of-house ops SaaS), and **Post-Pilot** (AI social media for F&B). Everything I build is either running in a real kitchen or will be when I open [Half Baked Café & Bakehouse](https://github.com/ShadowWalkerNC) in 2027. All four products communicate via their own MCP servers — AI-native from the ground up.
 
 ---
 
@@ -87,17 +87,17 @@ I'm **Nate** — a self-taught developer and professional cook from Bangor, Main
   </tr>
   <tr>
     <td><b>KitchenKit</b> 🔀</td>
-    <td>Recipe manager + shift prep planner — recipe scaling, Ratio Blueprint Engine, mise en place generation, prep list builder. Standalone for home cooks, caterers & personal chefs. Bridges into CulinaryOS via <code>recipe-mcp</code> + <code>prep-mcp</code>. <em>Merges RecipeOS + PrepFlow into one repo.</em></td>
-    <td><img src="https://skillicons.dev/icons?i=ts,react,supabase" height="20" title="TypeScript · React 18 · Supabase · Turborepo" /></td>
-    <td>🟤 Planning</td>
-    <td>—</td>
+    <td>Recipe manager · meal planner · pantry · shopping list · nutrition — Ratio Blueprint Engine, mise en place, prep lists. Standalone for home cooks, caterers & personal chefs. Bridges into CulinaryOS via <code>kitchenkit-mcp</code>. <em>Merges RecipeOS + PrepFlow into one product.</em></td>
+    <td><img src="https://skillicons.dev/icons?i=ts,react,supabase" height="20" title="TypeScript · Next.js 14 PWA · Supabase · Tailwind" /></td>
+    <td>✅ Live</td>
+    <td><a href="https://github.com/ShadowWalkerNC/KitchenKit">GitHub</a></td>
   </tr>
   <tr>
     <td><b>CulinaryOps</b> 🔀</td>
-    <td>Restaurant operations intelligence — labor cost %, food cost %, P&L, COGS, AI anomaly detection, multi-unit KPI dashboards. Standalone for GMs, operators & consultants. Bridges into CulinaryOS via <code>ops-mcp</code>. <em>Renamed & expanded from RestRevive-AI.</em></td>
-    <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" title="React 18 · Supabase · Anthropic Claude" /></td>
-    <td>🟡 Beta Pilot</td>
-    <td>—</td>
+    <td>B2B back-of-house ops SaaS — labor cost, food cost, waste tracking, vendor & purchase order management, live dashboard (auto-refreshes 60s). Standalone for GMs, operators & consultants. Bridges into CulinaryOS via <code>culinaryops-mcp</code>. <em>Renamed & expanded from RestRevive-AI.</em></td>
+    <td><img src="https://skillicons.dev/icons?i=ts,react,supabase" height="20" title="TypeScript · Next.js 14 PWA · Supabase · Tailwind" /></td>
+    <td>✅ Live</td>
+    <td><a href="https://github.com/ShadowWalkerNC/CulinaryOps">GitHub</a></td>
   </tr>
   <tr>
     <td><b>Post-Pilot</b></td>
@@ -203,16 +203,15 @@ All ecosystem products are AI-native. CulinaryOS hosts a master MCP router that 
 
 ```
 CulinaryOS AI (Claude via culinaryos-mcp master router)
-  ├──▶ pos-mcp          → fire_order · void_item · split_check · get_open_tickets
-  ├──▶ kds-mcp          → bump_ticket · route_station · get_active_tickets
-  ├──▶ inventory-mcp    → check_par · log_waste · create_purchase_order
-  ├──▶ scheduling-mcp   → build_schedule · project_labor_cost · flag_overtime
-  ├──▶ ordering-mcp     → get_online_orders · update_prep_time · inject_to_kds
-  ├──▶ reservations-mcp → book_table · get_covers_by_shift · get_waitlist
-  ├──▶ recipe-mcp       → scale_recipe · get_ratio · list_recipes        [KitchenKit]
-  ├──▶ prep-mcp         → build_shift_prep · get_mise_en_place           [KitchenKit]
-  ├──▶ ops-mcp          → get_labor_pct · get_food_cost_pct · run_report [CulinaryOps]
-  └──▶ postpilot-mcp    → draft_post · schedule_post                     [Post-Pilot, future]
+  ├──▶ pos-mcp            → fire_order · void_item · split_check · get_open_tickets
+  ├──▶ kds-mcp            → bump_ticket · route_station · get_active_tickets
+  ├──▶ inventory-mcp      → check_par · log_waste · create_purchase_order
+  ├──▶ scheduling-mcp     → build_schedule · project_labor_cost · flag_overtime
+  ├──▶ ordering-mcp       → get_online_orders · update_prep_time · inject_to_kds
+  ├──▶ reservations-mcp   → book_table · get_covers_by_shift · get_waitlist
+  ├──▶ kitchenkit-mcp     → search_recipes · get_recipe · add_to_meal_plan · get_pantry · get_shopping_list  [KitchenKit]
+  ├──▶ culinaryops-mcp    → get_labor_summary · get_food_cost · log_waste · get_waste_summary · list_vendors · create_purchase_order  [CulinaryOps]
+  └──▶ postpilot-mcp      → draft_post · schedule_post                     [Post-Pilot, future]
 ```
 
 ---
@@ -275,37 +274,50 @@ CI/CD:                GitHub Actions
 </details>
 
 <details>
-<summary><b>KitchenKit — Recipe + Prep Monorepo (Turborepo) · Merges RecipeOS + PrepFlow</b></summary>
+<summary><b>KitchenKit — Next.js 14 PWA · Merges RecipeOS + PrepFlow</b></summary>
 
 ```
-pnpm Monorepo (Turborepo)
-├── apps/web           React 18 · Vite  — recipe manager, scaling UI, prep planner
-├── apps/mobile        Kotlin · Jetpack Compose  — future companion app
-├── packages/
-│   ├── ratio-engine   Standalone recipe math (shared logic with CulinaryOS)
-│   └── prep-engine    Shift plans · par levels · mise en place generation
-└── mcp/
-    ├── recipe-mcp     scale_recipe · get_ratio · list_recipes · generate_prep_list
-    └── prep-mcp       build_shift_prep · get_mise_en_place · project_batch_size
+Next.js 14 PWA · TypeScript · Supabase · Tailwind · @modelcontextprotocol/sdk
+├── app/
+│   ├── recipes/       Recipe browser, search, full detail view
+│   ├── meal-plan/     Weekly meal planner
+│   ├── pantry/        Pantry inventory tracker
+│   ├── shopping/      Shopping list (auto-generated from meal plan + pantry)
+│   └── nutrition/     Nutritional breakdown per recipe / meal plan
+├── mcp/
+│   └── kitchenkit-mcp  search_recipes · get_recipe · add_to_meal_plan · get_pantry · get_shopping_list
+└── supabase/           RLS-secured tables for recipes, meal_plans, pantry, shopping_list
 
 Standalone: home cooks · caterers · personal chefs (no CulinaryOS account needed)
-Connected:  bridges into CulinaryOS AI via recipe-mcp + prep-mcp
+Connected:  bridges into CulinaryOS AI via kitchenkit-mcp
+Merges:     RecipeOS (archived) + PrepFlow (Notion-only, never a repo)
 ```
 
 </details>
 
 <details>
-<summary><b>CulinaryOps — Ops Intelligence Dashboard · Renamed from RestRevive-AI</b></summary>
+<summary><b>CulinaryOps — Next.js 14 PWA · Renamed from RestRevive-AI</b></summary>
 
 ```
-├── apps/dashboard     React 18 · Vite  — labor/food cost KPIs · anomaly alerts · P&L
-├── services/api       Hono / Flask     — multi-source data ingestion (CSV, manual, CulinaryOS bridge)
-└── mcp/
-    └── ops-mcp        get_labor_pct · get_food_cost_pct · run_report · get_anomalies
+Next.js 14 PWA · TypeScript · Supabase · Tailwind · @modelcontextprotocol/sdk
+├── app/
+│   ├── dashboard/     Live KPI dashboard (auto-refreshes every 60s)
+│   ├── labor/         Labor cost tracking & summaries
+│   ├── food-cost/     Food cost % by item / category
+│   ├── waste/         Waste logging & reporting
+│   └── vendors/       Vendor management + purchase orders
+├── packages/
+│   ├── @culinaryops/labor-engine
+│   ├── @culinaryops/food-cost-engine
+│   ├── @culinaryops/waste-engine
+│   └── @culinaryops/vendor-engine
+├── mcp/
+│   └── culinaryops-mcp  get_labor_summary · get_food_cost · log_waste · get_waste_summary · list_vendors · create_purchase_order
+└── supabase/            RLS-secured tables for labor, food_cost, waste, vendors, purchase_orders
 
-Standalone: GMs · multi-unit operators · restaurant consultants (no POS required)
-Connected:  bridges into CulinaryOS AI via ops-mcp
-Beta pilot: Seasons Bar & Grill
+Standalone: GMs · restaurant owners · food consultants (no POS required)
+Connected:  bridges into CulinaryOS AI via culinaryops-mcp
+Replaces:   RestRevive-AI (archived)
 ```
 
 </details>
