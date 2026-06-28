@@ -1,4 +1,4 @@
-<!-- HEADER BANNER -->
+<!-- HEADER -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ShadowWalkerNC&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Cook.+Builder.+Founder.&descAlignY=60&descSize=18" width="100%" />
 </div>
@@ -16,15 +16,18 @@
   &nbsp;
   <a href="https://post-pilot-opal.vercel.app"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Post--Pilot-LIVE-brightgreen?style=for-the-badge" /></a>
   &nbsp;
-  <a href="mailto:shadowwalkernc@gmail.com"><img src="https://img.shields.io/badge/Email_Me-shadowwalkernc%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:shadowwalkernc@gmail.com"><img src="https://img.shields.io/badge/Email-shadowwalkernc%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Self-taught+developer+since+~2017;Building+the+software+food+ops+actually+need;TypeScript+%7C+Python+%7C+Kotlin+%7C+React+%7C+Supabase;POS+%C2%B7+KDS+%C2%B7+Inventory+%C2%B7+AI+%C2%B7+MCP+Servers;Concrete+Random+%E2%80%94+connects+dots+others+miss" />
 </p>
 
 ---
 
-<!-- TYPING ANIMATION -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Self-taught+developer+since+~2017;Building+the+software+food+ops+actually+need;TypeScript+%7C+Python+%7C+Kotlin+%7C+React+%7C+Supabase;POS+%C2%B7+KDS+%C2%B7+Inventory+%C2%B7+AI+%C2%B7+MCP+Servers;Concrete+Random+%E2%80%94+connects+dots+others+miss" />
-</p>
+## 👤 About
+
+I’m **Nate** — a self-taught developer and professional cook from Bangor, Maine. After 10+ years working every station in professional kitchens, I started building the software food operators actually need: a full SaaS restaurant OS ([CulinaryOS](https://github.com/ShadowWalkerNC/CulinaryOS)), an Android kitchen companion ([RecipeOS](https://github.com/ShadowWalkerNC/RecipeOS)), an AI social media tool for F&B ([Post-Pilot](https://post-pilot-opal.vercel.app)), and a restaurant website builder ([NexCMS](https://github.com/ShadowWalkerNC/NexCMS)). Everything I build is either running in a real kitchen or will be when I open [Half Baked Café & Bakehouse](https://github.com/ShadowWalkerNC) in 2027.
 
 ---
 
@@ -61,7 +64,7 @@
 
 ---
 
-## 🚀 Active Projects
+## 🚀 Projects
 
 ### 🍽️ Food & Restaurant Tech
 
@@ -89,7 +92,7 @@
   </tr>
   <tr>
     <td><b>Post-Pilot</b></td>
-    <td>AI-generated F&B social posts → Facebook & Instagram via Meta Graph API. Flask SaaS with Stripe billing, magic-link auth, Vercel Cron</td>
+    <td>AI-generated F&amp;B social posts → Facebook &amp; Instagram via Meta Graph API — Flask SaaS with Stripe billing, magic-link auth, Vercel Cron</td>
     <td><img src="https://skillicons.dev/icons?i=python,vercel,supabase" height="20" title="Python · Flask · Supabase (SQLAlchemy) · Stripe · Anthropic · Vercel Cron" /></td>
     <td>✅ Live — Phase 5</td>
     <td><a href="https://github.com/ShadowWalkerNC/Post-Pilot">GitHub</a> · <a href="https://post-pilot-opal.vercel.app">Live</a></td>
@@ -121,13 +124,6 @@
     <th>Links</th>
   </tr>
   <tr>
-    <td><b>ShadowRealm</b></td>
-    <td>Self-hosted AI workspace — chat, agents, research, docs, tasks, calendar</td>
-    <td><img src="https://skillicons.dev/icons?i=python,js" height="20" /></td>
-    <td>🟡 In Dev</td>
-    <td><a href="https://github.com/ShadowWalkerNC/ShadowRealm">GitHub</a></td>
-  </tr>
-  <tr>
     <td><b>NexCMS</b></td>
     <td>Website builder for restaurants — no dev required</td>
     <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" /></td>
@@ -135,8 +131,15 @@
     <td><a href="https://github.com/ShadowWalkerNC/NexCMS">GitHub</a></td>
   </tr>
   <tr>
+    <td><b>ShadowRealm</b></td>
+    <td>Self-hosted AI workspace — chat, agents, research, docs, tasks, calendar</td>
+    <td><img src="https://skillicons.dev/icons?i=python,js" height="20" /></td>
+    <td>🟡 In Dev</td>
+    <td><a href="https://github.com/ShadowWalkerNC/ShadowRealm">GitHub</a></td>
+  </tr>
+  <tr>
     <td><b>Sigil</b></td>
-    <td>Discord bot & brand builder for communities</td>
+    <td>Discord bot &amp; brand builder for communities</td>
     <td><img src="https://skillicons.dev/icons?i=ts" height="20" /></td>
     <td>🟡 In Dev</td>
     <td><a href="https://github.com/ShadowWalkerNC/Sigil">GitHub</a></td>
@@ -149,58 +152,6 @@
     <td><a href="https://github.com/ShadowWalkerNC/BibleDesk">GitHub</a></td>
   </tr>
 </table>
-
----
-
-## 🏗️ CulinaryOS — Architecture Snapshot
-
-```
-pnpm Monorepo (Turborepo)
-├── apps/pos      React 18 · Vite  — tablet POS for servers
-├── apps/kds      React 18 · Vite  — real-time kitchen display
-├── apps/admin    React 18 · Vite  — back office, reporting, inventory
-├── apps/web      React 18 · Vite  — public menu + online ordering
-├── services/api  Hono · Node 20   — single API gateway
-├── packages/
-│   ├── @culinaryos/ratio-engine   ← THE differentiator (pure TS, zero deps)
-│   ├── @culinaryos/db             Supabase client + generated types
-│   ├── @culinaryos/event-bus      Typed in-process event emitter
-│   ├── @culinaryos/ui             Shared React components (shadcn base)
-│   ├── @culinaryos/auth           Auth context + session helpers
-│   └── @culinaryos/config         Env schema, feature flags
-├── mcp/                           Domain MCP servers (TypeScript · MCP SDK)
-├── mobile/recipeos                Android companion (Kotlin · Jetpack Compose · Room)
-└── supabase/                      V1–V12 migrations + Edge Functions (Deno · Resend)
-
-Backend: Supabase (PostgreSQL · Realtime · Auth · RLS)
-Payments: Stripe Elements + Terminal (Phase 11)
-AI: Anthropic Claude (claude-sonnet) — cloud-only
-```
-
-> **Ratio Blueprint Engine** — Every other POS stores `bread_flour: 500g`. CulinaryOS stores `bread_flour: 100%` (baker's percentage) and understands the *relationship*. True prep scaling, food cost projection, and AI menu assistance — nothing else does this.
-
----
-
-## 🔧 Post-Pilot — Architecture Snapshot
-
-```
-Flask 3.x (Python 3.11+) · Vercel serverless
-├── blueprints/         One file per domain (auth, dashboard, generate,
-│                       publish, scheduler, cron, billing, onboarding)
-├── modules/            Shared services (Claude API, Meta Graph API,
-│                       SQLAlchemy models, Stripe, JWT, Redis rate limiting)
-├── templates/          Jinja2 + Tailwind CSS
-├── alembic/            Forward-only DB migrations
-└── /api/cron/publish   Vercel Cron endpoint (HMAC-authenticated, fires every minute)
-
-Database:  Supabase PostgreSQL via SQLAlchemy + psycopg2
-Auth:      Magic link email (Flask-Mail + JWT — no passwords)
-AI:        Anthropic Claude (claude-3-5-sonnet) for post generation
-Payments:  Stripe subscription billing (Starter / Pro / Agency)
-Observability: Sentry
-Rate limiting: Flask-Limiter + Upstash Redis
-CI/CD:     GitHub Actions (ruff + pytest)
-```
 
 ---
 
@@ -221,34 +172,62 @@ CI/CD:     GitHub Actions (ruff + pytest)
 
 ---
 
-## 🌉 The Bridge
+## 🏗️ Architecture
+
+<details>
+<summary><b>CulinaryOS — pnpm Monorepo (Turborepo)</b></summary>
 
 ```
- KITCHEN PROBLEM                            WHAT I BUILT
- ┌────────────────────────────────┐   ┌──────────────────────────────────────┐
- | No true recipe ratio engine    | → | Ratio Blueprint Engine (CulinaryOS)   |
- | POS software costs $300+/mo    | → | CulinaryOS — full SaaS OS, open core  |
- | No Android prep tool exists    | → | RecipeOS (Kotlin · Jetpack Compose)   |
- | Social media eats shift time   | → | Post-Pilot (Python · Flask · Meta API)|
- | AI doesn't reach small ops     | → | MCP server layer on CulinaryOS        |
- └────────────────────────────────┘   └──────────────────────────────────────┘
+pnpm Monorepo (Turborepo)
+├── apps/pos      React 18 · Vite  — tablet POS for servers
+├── apps/kds      React 18 · Vite  — real-time kitchen display (Supabase Realtime)
+├── apps/admin    React 18 · Vite  — back office, reporting, inventory
+├── apps/web      React 18 · Vite  — public menu + online ordering storefront
+├── services/api  Hono · Node 20   — single API gateway (:3000)
+├── packages/
+│   ├── @culinaryos/ratio-engine   ← THE differentiator (pure TS, zero deps)
+│   ├── @culinaryos/db             Supabase client + generated types
+│   ├── @culinaryos/event-bus      Typed in-process event emitter
+│   ├── @culinaryos/ui             Shared React components (shadcn base)
+│   ├── @culinaryos/auth           Auth context + session helpers
+│   └── @culinaryos/config         Env schema, feature flags
+├── mcp/           Domain MCP servers (TypeScript · @modelcontextprotocol/sdk)
+├── mobile/recipeos  Android companion (Kotlin · Jetpack Compose · Room)
+└── supabase/      V1–V12 migrations + Edge Functions (Deno · Resend)
+
+DB / Auth / Realtime: Supabase (PostgreSQL + RLS)
+Payments: Stripe Elements · Stripe Terminal (Phase 11)
+AI: Anthropic Claude (claude-sonnet) — cloud-only, no on-device
+CI/CD: GitHub Actions
 ```
 
----
+> **Ratio Blueprint Engine** — Every other POS stores `bread_flour: 500g`. CulinaryOS stores `bread_flour: 100%` (baker’s percentage) and understands the *relationship*. True prep scaling, food cost projection, and AI menu assistance.
 
-## 📅 Timeline
+</details>
+
+<details>
+<summary><b>Post-Pilot — Flask SaaS (Python 3.11+ · Vercel)</b></summary>
 
 ```
-2014  ─▶  First kitchen role (Samoset Resort — banquets)
-2017  ─▶  Staples tech supervisor → started teaching myself to code
-2019  ─▶  Boynton McKay (scratch breakfast)
-2020  ─▶  Ports of Italy (Italian fine dining, sous chef)
-2022  ─▶  Daddy B's Food Truck (mobile kitchen sous chef)
-2023  ─▶  Co-founded Northern Fixin's / Half Baked Co.
-2024  ─▶  Ross Manor dietary cook · Full-time software builds begin
-2026  ─▶  Post-Pilot live · CulinaryOS active dev · RecipeOS in dev
-2027  ─▶  Half Baked Café & Bakehouse — target open 🍰
+Flask 3.x · Vercel serverless
+├── blueprints/       auth · dashboard · generate · publish
+│                     scheduler · cron · billing · onboarding
+├── modules/          Claude API · Meta Graph API · SQLAlchemy models
+│                     Stripe helpers · JWT · Flask-Limiter + Redis
+├── templates/        Jinja2 + Tailwind CSS
+├── alembic/          Forward-only DB migrations
+└── /api/cron/publish  Vercel Cron (HMAC-auth, fires every minute)
+
+DB:           Supabase PostgreSQL via SQLAlchemy + psycopg2
+Auth:         Magic link email — Flask-Mail + JWT (no passwords)
+AI:           Anthropic claude-3-5-sonnet
+Payments:     Stripe (Starter / Pro / Agency plans)
+Observability: Sentry
+Rate limiting: Flask-Limiter + Upstash Redis
+CI/CD:        GitHub Actions (ruff + pytest)
 ```
+
+</details>
 
 ---
 
@@ -263,11 +242,11 @@ CI/CD:     GitHub Actions (ruff + pytest)
 
 ---
 
-<!-- FOOTER WAVE -->
+<!-- FOOTER -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" />
 </div>
 
 <p align="center">
-  <sub>Built with Grit &amp; Grace &nbsp;&middot;&nbsp; 📍 Bangor, ME &nbsp;&middot;&nbsp; <a href="mailto:shadowwalkernc@gmail.com">shadowwalkernc@gmail.com</a> &nbsp;&middot;&nbsp; <em>Half Baked Café &amp; Bakehouse — coming 2027</em></sub>
+  <sub>Built with Grit &amp; Grace &nbsp;·&nbsp; 📍 Bangor, ME &nbsp;·&nbsp; <a href="mailto:shadowwalkernc@gmail.com">shadowwalkernc@gmail.com</a> &nbsp;·&nbsp; <em>Half Baked Café &amp; Bakehouse — coming 2027</em></sub>
 </p>
