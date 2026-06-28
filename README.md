@@ -27,7 +27,7 @@
 
 ## 👤 About
 
-I’m **Nate** — a self-taught developer and professional cook from Bangor, Maine. After 10+ years working every station in professional kitchens, I started building the software food operators actually need: a full SaaS restaurant OS ([CulinaryOS](https://github.com/ShadowWalkerNC/CulinaryOS)), an Android kitchen companion ([RecipeOS](https://github.com/ShadowWalkerNC/RecipeOS)), an AI social media tool for F&B ([Post-Pilot](https://post-pilot-opal.vercel.app)), and a restaurant website builder ([NexCMS](https://github.com/ShadowWalkerNC/NexCMS)). Everything I build is either running in a real kitchen or will be when I open [Half Baked Café & Bakehouse](https://github.com/ShadowWalkerNC) in 2027.
+I'm **Nate** — a self-taught developer and professional cook from Bangor, Maine. After 10+ years working every station in professional kitchens, I started building the software food operators actually need: a full SaaS restaurant OS ([CulinaryOS](https://github.com/ShadowWalkerNC/CulinaryOS)), an Android kitchen companion ([RecipeOS](https://github.com/ShadowWalkerNC/RecipeOS)), an AI social media tool for F&B ([Post-Pilot](https://post-pilot-opal.vercel.app)), and a restaurant website builder ([NexCMS](https://github.com/ShadowWalkerNC/NexCMS)). Everything I build is either running in a real kitchen or will be when I open [Half Baked Café & Bakehouse](https://github.com/ShadowWalkerNC) in 2027.
 
 ---
 
@@ -98,6 +98,13 @@ I’m **Nate** — a self-taught developer and professional cook from Bangor, Ma
     <td><a href="https://github.com/ShadowWalkerNC/Post-Pilot">GitHub</a> · <a href="https://post-pilot-opal.vercel.app">Live</a></td>
   </tr>
   <tr>
+    <td><b>RestRevive-AI</b></td>
+    <td>Restaurant operations intelligence platform — AI diagnostics across labor, food cost &amp; service · anomaly detection · real-time KPI dashboards · Claude-powered recommendations. Beta pilot at Seasons Bar &amp; Grill</td>
+    <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" title="React 18 · Supabase · Anthropic Claude" /></td>
+    <td>🟡 Beta Pilot</td>
+    <td><a href="https://github.com/ShadowWalkerNC/RestRevive-AI">GitHub</a></td>
+  </tr>
+  <tr>
     <td><b>PrepFlow</b></td>
     <td>AI-powered shift prep planning for commercial kitchens</td>
     <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" /></td>
@@ -110,6 +117,25 @@ I’m **Nate** — a self-taught developer and professional cook from Bangor, Ma
     <td><img src="https://skillicons.dev/icons?i=js" height="20" /></td>
     <td>✅ Live</td>
     <td><a href="https://github.com/ShadowWalkerNC/cheezies-gourmet">GitHub</a> · <a href="https://cheezies-gourmet.vercel.app">Live</a></td>
+  </tr>
+</table>
+
+### 🏠 Senior Living & Facility Ops
+
+<table>
+  <tr>
+    <th>Project</th>
+    <th>What It Does</th>
+    <th>Stack</th>
+    <th>Status</th>
+    <th>Links</th>
+  </tr>
+  <tr>
+    <td><b>Shoreline</b></td>
+    <td>Senior living facility management system — resident management, dining menus, maintenance ticketing, budget tracking, multi-role dashboards (Staff · Admin · HQ). Deployed on Railway</td>
+    <td><img src="https://skillicons.dev/icons?i=js,nodejs" height="20" title="Node.js · Vanilla JS · Railway" /></td>
+    <td>🟡 In Dev</td>
+    <td><a href="https://github.com/ShadowWalkerNC/Shoreline">GitHub</a></td>
   </tr>
 </table>
 
@@ -150,6 +176,25 @@ I’m **Nate** — a self-taught developer and professional cook from Bangor, Ma
     <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" /></td>
     <td>🔴 Reset</td>
     <td><a href="https://github.com/ShadowWalkerNC/BibleDesk">GitHub</a></td>
+  </tr>
+</table>
+
+### ⚙️ Experimental & Engine Work
+
+<table>
+  <tr>
+    <th>Project</th>
+    <th>What It Does</th>
+    <th>Stack</th>
+    <th>Status</th>
+    <th>Links</th>
+  </tr>
+  <tr>
+    <td><b>ASCILINE-2.0</b></td>
+    <td>High-performance real-time ASCII/pixel video rendering engine — streams video as text frames over WebSockets · adaptive frame codec (RAW / ZLIB / DELTA) · 5 color modes up to 16M · Python/FastAPI backend · zero GPU required for ASCII mode · LAN streaming support</td>
+    <td><img src="https://skillicons.dev/icons?i=python,js" height="20" title="Python · FastAPI · OpenCV · NumPy · Vanilla JS · WebSockets" /></td>
+    <td>🟡 In Dev</td>
+    <td><a href="https://github.com/ShadowWalkerNC/ASCILINE-2.0">GitHub</a></td>
   </tr>
 </table>
 
@@ -201,7 +246,7 @@ AI: Anthropic Claude (claude-sonnet) — cloud-only, no on-device
 CI/CD: GitHub Actions
 ```
 
-> **Ratio Blueprint Engine** — Every other POS stores `bread_flour: 500g`. CulinaryOS stores `bread_flour: 100%` (baker’s percentage) and understands the *relationship*. True prep scaling, food cost projection, and AI menu assistance.
+> **Ratio Blueprint Engine** — Every other POS stores `bread_flour: 500g`. CulinaryOS stores `bread_flour: 100%` (baker's percentage) and understands the *relationship*. True prep scaling, food cost projection, and AI menu assistance.
 
 </details>
 
@@ -225,6 +270,31 @@ Payments:     Stripe (Starter / Pro / Agency plans)
 Observability: Sentry
 Rate limiting: Flask-Limiter + Upstash Redis
 CI/CD:        GitHub Actions (ruff + pytest)
+```
+
+</details>
+
+<details>
+<summary><b>ASCILINE-2.0 — Real-Time ASCII/Pixel Video Engine</b></summary>
+
+```
+Python / FastAPI · Vanilla JS · WebSockets
+├── stream_server.py     FastAPI server — OpenCV decode · NumPy pixel→ASCII map
+│                        Binary WebSocket streaming · master audio clock sync
+├── ascii_video_player2.py  Standalone ANSI terminal player (zero browser)
+├── codec.js             Adaptive frame codec (RAW / ZLIB / DELTA)
+│                        shared by browser + Node test suite
+├── experiments/
+│   ├── gen_vectors.py   Python → bit-exact test vectors
+│   ├── check_vectors.js  Node cross-verification
+│   └── test_e2e.js      Live adaptive-vs-legacy WebSocket diff
+└── style.css            CSS variable theming (accent, bg)
+
+Color modes:  1 (B&W DOM) · 2 (512) · 3 (32K) · 4 (262K) · 5 (16M Ultra)
+Codec tags:   0=RAW · 1=ZLIB · 2=DELTA (opt-in via /ws?codec=adaptive)
+Wire savings: ~375× on static screens · never worse than legacy on full-motion
+Audio:        FFmpeg master clock · server-side vol 0–5 · yt-dlp URL support
+Deploy:       LAN stream with --host 0.0.0.0
 ```
 
 </details>
