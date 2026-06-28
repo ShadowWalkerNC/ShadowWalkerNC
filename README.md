@@ -20,14 +20,14 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Self-taught+developer+since+~2017;Building+the+software+food+ops+actually+need;TypeScript+%7C+Python+%7C+Kotlin+%7C+React+%7C+Supabase;POS+%C2%B7+KDS+%C2%B7+Inventory+%C2%B7+AI+%C2%B7+MCP+Servers;Concrete+Random+%E2%80%94+connects+dots+others+miss" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Self-taught+developer+since+~2017;Building+the+software+food+ops+actually+need;TypeScript+%7C+Python+%7C+Kotlin+%7C+React+%7C+Supabase;POS+%C2%B7+KDS+%C2%B7+Inventory+%C2%B7+Reservations+%C2%B7+MCP+Servers;CulinaryOS+%C2%B7+KitchenKit+%C2%B7+CulinaryOps+%C2%B7+Post-Pilot;Concrete+Random+%E2%80%94+connects+dots+others+miss" />
 </p>
 
 ---
 
 ## 👤 About
 
-I'm **Nate** — a self-taught developer and professional cook from Bangor, Maine. After 10+ years working every station in professional kitchens, I started building the software food operators actually need: a full SaaS restaurant OS ([CulinaryOS](https://github.com/ShadowWalkerNC/CulinaryOS)), an Android kitchen companion ([RecipeOS](https://github.com/ShadowWalkerNC/RecipeOS)), an AI social media tool for F&B ([Post-Pilot](https://post-pilot-opal.vercel.app)), and a restaurant website builder ([NexCMS](https://github.com/ShadowWalkerNC/NexCMS)). Everything I build is either running in a real kitchen or will be when I open [Half Baked Café & Bakehouse](https://github.com/ShadowWalkerNC) in 2027.
+I'm **Nate** — a self-taught developer and professional cook from Bangor, Maine. After 10+ years working every station in professional kitchens, I started building the software food operators actually need. The ecosystem is built around **CulinaryOS** — a full web-based restaurant SaaS (POS, KDS, Inventory, Payments, Reservations, Online Ordering) — supported by **KitchenKit** (recipe + prep planning, standalone or bridged), **CulinaryOps** (operations intelligence dashboard), and **Post-Pilot** (AI social media for F&B). Everything I build is either running in a real kitchen or will be when I open [Half Baked Café & Bakehouse](https://github.com/ShadowWalkerNC) in 2027. All four products communicate via their own MCP servers — AI-native from the ground up.
 
 ---
 
@@ -68,7 +68,7 @@ I'm **Nate** — a self-taught developer and professional cook from Bangor, Main
 
 ### 🍽️ Food & Restaurant Tech
 
-> **CulinaryOS Ecosystem** — RecipeOS, RestRevive-AI, and CulinaryOS are each fully independent products. They run standalone out of the box, but are designed to optionally bridge together — with CulinaryOS as the central hub when an operator wants the full connected suite.
+> **The CulinaryOS Ecosystem** — Five products, one MCP-connected network. Each runs fully standalone. When connected, CulinaryOS serves as the AI hub, calling the others via their own MCP servers.
 
 <table>
   <tr>
@@ -80,38 +80,38 @@ I'm **Nate** — a self-taught developer and professional cook from Bangor, Main
   </tr>
   <tr>
     <td><b>CulinaryOS</b> 🌐</td>
-    <td>Web-based SaaS restaurant OS — POS · KDS · Inventory · Payments · Online Ordering · MCP servers · Ratio Blueprint Engine. <em>Hub for the CulinaryOS ecosystem — RecipeOS &amp; RestRevive-AI can bridge in.</em></td>
+    <td>Full web SaaS restaurant OS — POS · KDS · Inventory · Payments (Stripe Terminal) · Online Ordering · Reservations · Scheduling · Reporting · AI hub via MCP servers. <em>Turborepo monorepo. Hub of the entire ecosystem.</em></td>
     <td><img src="https://skillicons.dev/icons?i=ts,react,supabase" height="20" title="TypeScript · React 18 · Hono · Supabase · Turborepo" /></td>
-    <td>🟡 Phase 0–8</td>
+    <td>🟡 In Build</td>
     <td><a href="https://github.com/ShadowWalkerNC/CulinaryOS">GitHub</a></td>
   </tr>
   <tr>
-    <td><b>RecipeOS</b></td>
-    <td>Android recipe &amp; prep companion — recipe scaling, prep list generation, Ratio Blueprint Engine on-device. <em>Standalone app; bridges into CulinaryOS when connected.</em></td>
-    <td><img src="https://skillicons.dev/icons?i=kotlin,androidstudio" height="20" title="Kotlin · Jetpack Compose · Room · Supabase-kt" /></td>
-    <td>🟡 In Dev</td>
-    <td><a href="https://github.com/ShadowWalkerNC/RecipeOS">GitHub</a></td>
+    <td><b>KitchenKit</b> 🔀</td>
+    <td>Recipe manager + shift prep planner — recipe scaling, Ratio Blueprint Engine, mise en place generation, prep list builder. Standalone for home cooks, caterers & personal chefs. Bridges into CulinaryOS via <code>recipe-mcp</code> + <code>prep-mcp</code>. <em>Merges RecipeOS + PrepFlow into one repo.</em></td>
+    <td><img src="https://skillicons.dev/icons?i=ts,react,supabase" height="20" title="TypeScript · React 18 · Supabase · Turborepo" /></td>
+    <td>🟤 Planning</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td><b>CulinaryOps</b> 🔀</td>
+    <td>Restaurant operations intelligence — labor cost %, food cost %, P&L, COGS, AI anomaly detection, multi-unit KPI dashboards. Standalone for GMs, operators & consultants. Bridges into CulinaryOS via <code>ops-mcp</code>. <em>Renamed & expanded from RestRevive-AI.</em></td>
+    <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" title="React 18 · Supabase · Anthropic Claude" /></td>
+    <td>🟡 Beta Pilot</td>
+    <td>—</td>
   </tr>
   <tr>
     <td><b>Post-Pilot</b></td>
-    <td>AI-generated F&amp;B social posts → Facebook &amp; Instagram via Meta Graph API — Flask SaaS with Stripe billing, magic-link auth, Vercel Cron</td>
+    <td>AI-generated F&B social posts → Facebook & Instagram via Meta Graph API — Flask SaaS with Stripe billing, magic-link auth, Vercel Cron. Future: bridges into CulinaryOS via <code>postpilot-mcp</code>.</td>
     <td><img src="https://skillicons.dev/icons?i=python,vercel,supabase" height="20" title="Python · Flask · Supabase (SQLAlchemy) · Stripe · Anthropic · Vercel Cron" /></td>
     <td>✅ Live — Phase 5</td>
     <td><a href="https://github.com/ShadowWalkerNC/Post-Pilot">GitHub</a> · <a href="https://post-pilot-opal.vercel.app">Live</a></td>
   </tr>
   <tr>
-    <td><b>RestRevive-AI</b></td>
-    <td>Restaurant operations intelligence platform — AI diagnostics across labor, food cost &amp; service · anomaly detection · real-time KPI dashboards · Claude-powered recommendations. Beta pilot at Seasons Bar &amp; Grill. <em>Standalone product; bridges into CulinaryOS when connected.</em></td>
-    <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" title="React 18 · Supabase · Anthropic Claude" /></td>
-    <td>🟡 Beta Pilot</td>
-    <td><a href="https://github.com/ShadowWalkerNC/RestRevive-AI">GitHub</a></td>
-  </tr>
-  <tr>
-    <td><b>PrepFlow</b></td>
-    <td>AI-powered shift prep planning for commercial kitchens</td>
+    <td><b>NexCMS</b></td>
+    <td>Restaurant website builder — no dev required. Future: optional CulinaryOS menu data feed.</td>
     <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" /></td>
-    <td>🟤 Planning</td>
-    <td>—</td>
+    <td>🟡 In Dev</td>
+    <td><a href="https://github.com/ShadowWalkerNC/NexCMS">GitHub</a></td>
   </tr>
   <tr>
     <td><b>Cheezies Gourmet</b></td>
@@ -121,6 +121,8 @@ I'm **Nate** — a self-taught developer and professional cook from Bangor, Main
     <td><a href="https://github.com/ShadowWalkerNC/cheezies-gourmet">GitHub</a> · <a href="https://cheezies-gourmet.vercel.app">Live</a></td>
   </tr>
 </table>
+
+> **Archived / Merged** — `RecipeOS` and `PrepFlow` are merged into **KitchenKit**. `RestRevive-AI` is renamed and expanded into **CulinaryOps**.
 
 ### 🏠 Senior Living & Facility Ops
 
@@ -152,13 +154,6 @@ I'm **Nate** — a self-taught developer and professional cook from Bangor, Main
     <th>Links</th>
   </tr>
   <tr>
-    <td><b>NexCMS</b></td>
-    <td>Website builder for restaurants — no dev required</td>
-    <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" /></td>
-    <td>🟡 In Dev</td>
-    <td><a href="https://github.com/ShadowWalkerNC/NexCMS">GitHub</a></td>
-  </tr>
-  <tr>
     <td><b>ShadowRealm</b></td>
     <td>Self-hosted AI workspace — chat, agents, research, docs, tasks, calendar</td>
     <td><img src="https://skillicons.dev/icons?i=python,js" height="20" /></td>
@@ -167,7 +162,7 @@ I'm **Nate** — a self-taught developer and professional cook from Bangor, Main
   </tr>
   <tr>
     <td><b>Sigil</b></td>
-    <td>Discord bot &amp; brand builder for communities</td>
+    <td>Discord bot & brand builder for communities</td>
     <td><img src="https://skillicons.dev/icons?i=ts" height="20" /></td>
     <td>🟡 In Dev</td>
     <td><a href="https://github.com/ShadowWalkerNC/Sigil">GitHub</a></td>
@@ -202,6 +197,26 @@ I'm **Nate** — a self-taught developer and professional cook from Bangor, Main
 
 ---
 
+## 🧠 MCP Architecture
+
+All ecosystem products are AI-native. CulinaryOS hosts a master MCP router that calls domain-specific MCP servers — each independently usable by any AI tool.
+
+```
+CulinaryOS AI (Claude via culinaryos-mcp master router)
+  ├──▶ pos-mcp          → fire_order · void_item · split_check · get_open_tickets
+  ├──▶ kds-mcp          → bump_ticket · route_station · get_active_tickets
+  ├──▶ inventory-mcp    → check_par · log_waste · create_purchase_order
+  ├──▶ scheduling-mcp   → build_schedule · project_labor_cost · flag_overtime
+  ├──▶ ordering-mcp     → get_online_orders · update_prep_time · inject_to_kds
+  ├──▶ reservations-mcp → book_table · get_covers_by_shift · get_waitlist
+  ├──▶ recipe-mcp       → scale_recipe · get_ratio · list_recipes        [KitchenKit]
+  ├──▶ prep-mcp         → build_shift_prep · get_mise_en_place           [KitchenKit]
+  ├──▶ ops-mcp          → get_labor_pct · get_food_cost_pct · run_report [CulinaryOps]
+  └──▶ postpilot-mcp    → draft_post · schedule_post                     [Post-Pilot, future]
+```
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -226,11 +241,20 @@ I'm **Nate** — a self-taught developer and professional cook from Bangor, Main
 
 ```
 pnpm Monorepo (Turborepo)
-├── apps/pos      React 18 · Vite  — tablet POS for servers
-├── apps/kds      React 18 · Vite  — real-time kitchen display (Supabase Realtime)
-├── apps/admin    React 18 · Vite  — back office, reporting, inventory
-├── apps/web      React 18 · Vite  — public menu + online ordering storefront
-├── services/api  Hono · Node 20   — single API gateway (:3000)
+├── apps/pos           React 18 · Vite  — tablet POS (order entry, table map, modifiers, splits)
+├── apps/kds           React 18 · Vite  — real-time kitchen display (Supabase Realtime)
+├── apps/admin         React 18 · Vite  — back office, scheduling, staff, settings
+├── apps/web           React 18 · Vite  — public storefront + online ordering + reservations
+├── apps/ops           React 18 · Vite  — P&L, food cost %, labor %, AI anomaly alerts
+├── services/api       Hono · Node 20   — single API gateway (:3000)
+├── mcp/
+│   ├── pos-mcp        fire_order · void_item · split_check · get_open_tickets
+│   ├── kds-mcp        bump_ticket · route_station · get_active_tickets · fire_course
+│   ├── inventory-mcp  check_par · log_waste · create_purchase_order · get_vendors
+│   ├── scheduling-mcp build_schedule · project_labor_cost · flag_overtime · clock_in
+│   ├── ordering-mcp   get_online_orders · update_prep_time · mark_ready · inject_to_kds
+│   ├── reservations-mcp book_table · get_covers_by_shift · get_waitlist · release_table
+│   └── culinaryos-mcp Master router — routes all sub-servers + external MCPs
 ├── packages/
 │   ├── @culinaryos/ratio-engine   ← THE differentiator (pure TS, zero deps)
 │   ├── @culinaryos/db             Supabase client + generated types
@@ -238,22 +262,51 @@ pnpm Monorepo (Turborepo)
 │   ├── @culinaryos/ui             Shared React components (shadcn base)
 │   ├── @culinaryos/auth           Auth context + session helpers
 │   └── @culinaryos/config         Env schema, feature flags
-├── mcp/           Domain MCP servers (TypeScript · @modelcontextprotocol/sdk)
-├── mobile/recipeos  Android companion (Kotlin · Jetpack Compose · Room)
-└── supabase/      V1–V12 migrations + Edge Functions (Deno · Resend)
+└── supabase/          V1–V12 migrations + Edge Functions (Deno · Resend · Twilio)
 
-DB / Auth / Realtime: Supabase (PostgreSQL + RLS)
-Payments: Stripe Elements · Stripe Terminal (Phase 11)
-AI: Anthropic Claude (claude-sonnet) — cloud-only, no on-device
-CI/CD: GitHub Actions
-
-Ecosystem Bridge (planned):
-  RecipeOS     → standalone Android app; optionally links to CulinaryOS recipe/prep data
-  RestRevive-AI → standalone ops intelligence; optionally links to CulinaryOS labor/cost data
-  Hub:           CulinaryOS — all three can operate independently or as a unified suite
+DB / Auth / Realtime: Supabase (PostgreSQL + RLS + Realtime on tickets + table_status)
+Payments:             Stripe Elements · Stripe Terminal
+AI:                   Anthropic Claude (claude-sonnet) via MCP — cloud-only
+CI/CD:                GitHub Actions
 ```
 
 > **Ratio Blueprint Engine** — Every other POS stores `bread_flour: 500g`. CulinaryOS stores `bread_flour: 100%` (baker's percentage) and understands the *relationship*. True prep scaling, food cost projection, and AI menu assistance.
+
+</details>
+
+<details>
+<summary><b>KitchenKit — Recipe + Prep Monorepo (Turborepo) · Merges RecipeOS + PrepFlow</b></summary>
+
+```
+pnpm Monorepo (Turborepo)
+├── apps/web           React 18 · Vite  — recipe manager, scaling UI, prep planner
+├── apps/mobile        Kotlin · Jetpack Compose  — future companion app
+├── packages/
+│   ├── ratio-engine   Standalone recipe math (shared logic with CulinaryOS)
+│   └── prep-engine    Shift plans · par levels · mise en place generation
+└── mcp/
+    ├── recipe-mcp     scale_recipe · get_ratio · list_recipes · generate_prep_list
+    └── prep-mcp       build_shift_prep · get_mise_en_place · project_batch_size
+
+Standalone: home cooks · caterers · personal chefs (no CulinaryOS account needed)
+Connected:  bridges into CulinaryOS AI via recipe-mcp + prep-mcp
+```
+
+</details>
+
+<details>
+<summary><b>CulinaryOps — Ops Intelligence Dashboard · Renamed from RestRevive-AI</b></summary>
+
+```
+├── apps/dashboard     React 18 · Vite  — labor/food cost KPIs · anomaly alerts · P&L
+├── services/api       Hono / Flask     — multi-source data ingestion (CSV, manual, CulinaryOS bridge)
+└── mcp/
+    └── ops-mcp        get_labor_pct · get_food_cost_pct · run_report · get_anomalies
+
+Standalone: GMs · multi-unit operators · restaurant consultants (no POS required)
+Connected:  bridges into CulinaryOS AI via ops-mcp
+Beta pilot: Seasons Bar & Grill
+```
 
 </details>
 
@@ -277,6 +330,7 @@ Payments:     Stripe (Starter / Pro / Agency plans)
 Observability: Sentry
 Rate limiting: Flask-Limiter + Upstash Redis
 CI/CD:        GitHub Actions (ruff + pytest)
+Future:       postpilot-mcp bridge → CulinaryOS AI
 ```
 
 </details>
