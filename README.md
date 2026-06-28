@@ -5,58 +5,99 @@
 <h1 align="center">Nate Cowperthwaite &nbsp;&middot;&nbsp; ShadowWalkerNC</h1>
 
 <p align="center">
-  <em>Outlaw Country meets Soul &mdash; building software with Grit &amp; Grace.</em>
+  <em>Self-taught developer. 10+ years in professional kitchens. Building the software the food industry actually needs.</em>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ShadowWalkerNC&style=flat&color=6e40c9" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=ShadowWalkerNC&style=flat&color=6e40c9" />
   <img src="https://img.shields.io/badge/Location-Bangor%2C_Maine-blue?style=flat" />
-  <img src="https://img.shields.io/badge/Studio-CulinaryOS-orange?style=flat" />
+  <img src="https://img.shields.io/badge/Co--Founder-Half_Baked_Caf%C3%A9_%26_Bakehouse-orange?style=flat" />
   <a href="https://cheezies-gourmet.vercel.app"><img src="https://img.shields.io/badge/Cheezies_Gourmet-Live-brightgreen?style=flat" /></a>
   <a href="https://post-pilot-opal.vercel.app"><img src="https://img.shields.io/badge/Post--Pilot-Live-brightgreen?style=flat" /></a>
 </p>
 
 ---
 
-## 🧀 Who I Am
+## Who I Am
 
-I'm **Nate** — a self-taught developer, café founder, and food service operator from Bangor, Maine. I build interconnected software ecosystems at the intersection of **AI**, **restaurant technology**, and **full-stack engineering** under the [CulinaryOS](https://github.com/ShadowWalkerNC/CulinaryOS) umbrella.
+I'm **Nate** — a cook-turned-developer from Bangor, Maine. I've spent 10+ years working professional kitchens across Maine: resort banquets at the Samoset, scratch breakfast at Boynton McKay, Italian fine dining at Ports of Italy, sous chef on a food truck, and now a shift cook at an assisted living facility managing residents with specialized dietary needs. That's not background noise — it's the reason everything I build exists.
 
-By day I'm a shift-level manager working with special dietary needs populations. By night I'm building **Half Baked Café & Bakehouse** — a Maine-inspired brick-and-mortar café and scratch bakehouse — and the software stack that will run it. My thinking style is **Concrete Random**: intuitive, experimental, connecting dots others miss. I learn by doing and get bored fast with linear processes.
+I'm self-taught. No CS degree, no bootcamp. I learned to code the same way I learned to cook: by jumping in, breaking things, and figuring it out. My thinking style is **Concrete Random** — intuitive, experimental, cross-domain. I connect dots others miss. I thrive in early-stage chaos and get bored fast with linear processes. I build tools that solve problems I've personally lived.
 
-> *Not a resume. Not a LinkedIn bio. Just someone building real things in the real world.*
+> *Outlaw Country meets Soul. Grit & Grace. That's the aesthetic — in food and in code.*
 
 ---
 
-## 🛠 Active Projects
+## The Bridge: Why Food + Software
 
-### 🍽 Food & Restaurant Tech
+Every app I build traces back to a real operational pain point from my time in kitchens and food service:
 
-| Project | Description | Stack | Repo | Live |
+- **No affordable recipe scaling tool existed for small operators** → built RecipeOS
+- **Restaurant management software is overpriced, bloated, or both** → building CulinaryOS
+- **Social media is a full-time job for small F&B brands** → built Post-Pilot
+- **AI is everywhere but food operators don't have access to it** → building RestRevive-AI & PrepFlow
+- **I'm co-founding a real café** (Half Baked Café & Bakehouse, Bangor, ME — brick & mortar target: 2027) → every platform I build will run it
+
+This isn't a portfolio of random projects. It's an interconnected ecosystem — **CulinaryOS** as the ERP core, RecipeOS as the kitchen tool, Post-Pilot as the marketing layer, NexCMS as the website builder. Built by someone who has worked every station, closed every shift, and understands exactly what operators need.
+
+---
+
+## My Stack & Why
+
+I don't pick technologies for résumé padding. I pick what solves the problem.
+
+| Layer | Choice | Why |
+|---|---|---|
+| **Frontend** | React + Vite / TypeScript | Fast iteration, strong ecosystem, TypeScript for scale |
+| **Backend / DB** | Supabase | Postgres power with zero-backend overhead — perfect for lean products |
+| **AI** | Anthropic API (Claude) | Best reasoning quality for structured, domain-specific outputs |
+| **Mobile** | Kotlin + Android Studio | Native Android for RecipeOS — performance matters in a kitchen |
+| **Scripting / Agents** | Python | Automation, AI pipelines, and the ShadowRealm workspace backend |
+| **CMS / No-Code** | Base44, Notion | Rapid prototyping and second-brain operations |
+| **Deploy** | Vercel | Zero-config deploys for web apps |
+| **Org System** | Notion | My entire second brain — specs, builds, identity, planning |
+
+All repos follow the **[Universal Process Architecture (UPA)](https://github.com/ShadowWalkerNC/.github)** — a shared framework I built for session bootstrapping, AI-assisted development, and contribution standards across every project.
+
+---
+
+## Active Projects
+
+### 🍽️ Food & Restaurant Tech
+
+| Project | What It Solves | Stack | Status | Repo |
 |---|---|---|---|---|
-| **CulinaryOS** | Comprehensive restaurant management & recipe platform | TypeScript | [GitHub](https://github.com/ShadowWalkerNC/CulinaryOS) | — |
-| **RecipeOS** | Recipe creation, scaling, and kitchen management | TypeScript | [GitHub](https://github.com/ShadowWalkerNC/RecipeOS) | — |
-| **RestRevive-AI** | Restaurant operations intelligence platform | React 18, Supabase, Anthropic | [GitHub](https://github.com/ShadowWalkerNC/RestRevive-AI) | — |
-| **Post-Pilot** | Automated F&B social posts — Facebook & Instagram via Meta Graph API | Python | [GitHub](https://github.com/ShadowWalkerNC/Post-Pilot) | [Live](https://post-pilot-opal.vercel.app) |
-| **Cheezies Gourmet** | Gourmet food brand web app | JavaScript | [GitHub](https://github.com/ShadowWalkerNC/cheezies-gourmet) | [Live](https://cheezies-gourmet.vercel.app) |
+| **CulinaryOS** | Full restaurant ERP — recipes, inventory, menus, cost control, vendor management | React + Vite, Supabase, Node.js | 🟡 In Development | [GitHub](https://github.com/ShadowWalkerNC/CulinaryOS) |
+| **RecipeOS** | Recipe scaling, unit conversion, kitchen management — built for real cooks | Kotlin, Android Studio | 🟡 In Development | [GitHub](https://github.com/ShadowWalkerNC/RecipeOS) |
+| **PrepFlow** | AI-powered shift prep planning for commercial kitchens | React, Supabase, Anthropic API | 🟡 Planning | — |
+| **Post-Pilot** | Automated F&B social posts → Facebook & Instagram via Meta Graph API | Python | ✅ Live | [GitHub](https://github.com/ShadowWalkerNC/Post-Pilot) · [Live](https://post-pilot-opal.vercel.app) |
+| **Cheezies Gourmet** | Gourmet food brand web presence | JavaScript | ✅ Live | [GitHub](https://github.com/ShadowWalkerNC/cheezies-gourmet) · [Live](https://cheezies-gourmet.vercel.app) |
 
 ### 🧱 Dev Platforms & Tools
 
-| Project | Description | Stack | Repo | Live |
+| Project | What It Solves | Stack | Status | Repo |
 |---|---|---|---|---|
-| **ShadowRealm** | Self-hosted AI workspace — chat, agents, research, documents, email, notes, tasks & calendar | Python, JS | [GitHub](https://github.com/ShadowWalkerNC/ShadowRealm) | — |
-| **NexCMS** | Custom website builder and content management system | React, Supabase | [GitHub](https://github.com/ShadowWalkerNC/NexCMS) | — |
-| **Sigil** | Discord bot & brand builder | TypeScript | [GitHub](https://github.com/ShadowWalkerNC/Sigil) | — |
+| **ShadowRealm** | Self-hosted AI workspace — chat, agents, research, docs, email, notes, tasks, calendar | Python, JS | 🟡 In Development | [GitHub](https://github.com/ShadowWalkerNC/ShadowRealm) |
+| **NexCMS** | Custom website builder for restaurants — no dev required | React, Supabase | 🟡 In Development | [GitHub](https://github.com/ShadowWalkerNC/NexCMS) |
+| **Sigil** | Discord bot & brand builder for communities | TypeScript | 🟡 In Development | [GitHub](https://github.com/ShadowWalkerNC/Sigil) |
 
 ### 📖 Other
 
-| Project | Description | Stack | Repo |
+| Project | What It Solves | Stack | Repo |
 |---|---|---|---|
-| **BibleDesk** | AI-powered Bible study — scripture analysis, Hebrew/Greek, historical context | TypeScript | [GitHub](https://github.com/ShadowWalkerNC/BibleDesk) |
+| **BibleDesk** | AI-powered Bible study — 5-dimension sourced answers, Hebrew/Greek, historical context | React, Supabase, Anthropic | [GitHub](https://github.com/ShadowWalkerNC/BibleDesk) |
 
 ---
 
-## 🔧 Tech Stack
+## Experience Snapshot
+
+**10+ years in professional food service** across every format — resort kitchens, fine dining, scratch breakfast, food truck sous chef, barista shift supervisor, and assisted living dietary cook. Co-founding **Half Baked Café & Bakehouse** (brick & mortar, Bangor, ME) with a 2027 target open alongside the **Alley Katz** food truck concept.
+
+**Self-taught in tech since ~2017.** Started with customer-facing tech at Staples (IP networking, technical support) and never stopped. Every year I've expanded: web apps, mobile (Kotlin/Android), AI integration, agent orchestration, self-hosted infrastructure. No formal training — just relentless building.
+
+---
+
+## Tech Stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -71,7 +112,7 @@ By day I'm a shift-level manager working with special dietary needs populations.
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ShadowWalkerNC&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
@@ -84,18 +125,12 @@ By day I'm a shift-level manager working with special dietary needs populations.
 
 ---
 
-## 🎵 Sound of the Build
+## Sound of the Build
 
-> *Jelly Roll · Struggle Jennings · Zach Bryan · Yelawolf*
-
-The music playing while the code gets written.
+> *Jelly Roll &nbsp;&middot;&nbsp; Struggle Jennings &nbsp;&middot;&nbsp; Zach Bryan &nbsp;&middot;&nbsp; Yelawolf*
 
 ---
 
-## 📋 Standards & Process
-
-All repositories follow the [Universal Process Architecture (UPA)](https://github.com/ShadowWalkerNC/.github) — a shared framework for session bootstrapping, contribution standards, and AI-assisted development.
-
----
-
-> 📍 Bangor, Maine &nbsp;·&nbsp; [CulinaryOS](https://github.com/ShadowWalkerNC/CulinaryOS) &nbsp;·&nbsp; *Half Baked Café & Bakehouse — coming soon*
+<p align="center">
+  <sub>📍 Bangor, Maine &nbsp;&middot;&nbsp; <a href="mailto:shadowwalkernc@gmail.com">shadowwalkernc@gmail.com</a> &nbsp;&middot;&nbsp; <a href="https://github.com/ShadowWalkerNC/CulinaryOS">CulinaryOS</a> &nbsp;&middot;&nbsp; <em>Half Baked Café & Bakehouse — coming 2027</em></sub>
+</p>
