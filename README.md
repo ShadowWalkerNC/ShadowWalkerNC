@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ShadowWalkerNC/ShadowRealm/dev/docs/Shadow-Realm.PNG" alt="ShadowRealm" width="120">
+</p>
+
 # Nathaniel Cowperthwaite · ShadowWalkerNC
 
 > Full-stack developer & restaurateur building interconnected software ecosystems for the food & beverage industry — and beyond.
@@ -23,7 +27,7 @@
 | Project | Description | Stack | Repo | Live |
 |---|---|---|---|---|
 | **NexCMS** | Custom website builder and content management system | React, Supabase | [GitHub](https://github.com/ShadowWalkerNC/NexCMS) | — |
-| **ShadowRealm** | AI agent framework | — | Coming Soon | — |
+| **ShadowRealm** | Self-hosted AI workspace — chat, agents, research, documents, email, notes, tasks & calendar | Python, JS | [GitHub](https://github.com/ShadowWalkerNC/ShadowRealm) | — |
 
 ---
 
