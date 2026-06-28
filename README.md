@@ -1,27 +1,30 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ShadowWalkerNC/ShadowRealm/dev/docs/Shadow-Realm.PNG" alt="ShadowRealm" width="120">
+  <img src="https://raw.githubusercontent.com/ShadowWalkerNC/ShadowRealm/dev/docs/Shadow-Realm.PNG" alt="ShadowRealm" width="110">
 </p>
 
-<h1 align="center">Nathaniel Cowperthwaite · ShadowWalkerNC</h1>
+<h1 align="center">Nate Cowperthwaite &nbsp;&middot;&nbsp; ShadowWalkerNC</h1>
 
 <p align="center">
-  <em>Full-stack developer & restaurateur building interconnected software ecosystems<br>for the food & beverage industry — and beyond.</em>
+  <em>Outlaw Country meets Soul &mdash; building software with Grit &amp; Grace.</em>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ShadowWalkerNC&style=flat&color=6e40c9" alt="Profile views" />
-  <a href="https://cheezies-gourmet.vercel.app"><img src="https://img.shields.io/badge/Cheezies_Gourmet-Live-brightgreen?style=flat" alt="Live Site" /></a>
-  <a href="https://post-pilot-opal.vercel.app"><img src="https://img.shields.io/badge/Post--Pilot-Live-brightgreen?style=flat" alt="Post Pilot Live" /></a>
-  <img src="https://img.shields.io/badge/Location-Bangor%2C_Maine-blue?style=flat" alt="Location" />
+  <img src="https://img.shields.io/badge/Location-Bangor%2C_Maine-blue?style=flat" />
+  <img src="https://img.shields.io/badge/Studio-CulinaryOS-orange?style=flat" />
+  <a href="https://cheezies-gourmet.vercel.app"><img src="https://img.shields.io/badge/Cheezies_Gourmet-Live-brightgreen?style=flat" /></a>
+  <a href="https://post-pilot-opal.vercel.app"><img src="https://img.shields.io/badge/Post--Pilot-Live-brightgreen?style=flat" /></a>
 </p>
 
 ---
 
-## 👤 About Me
+## 🧀 Who I Am
 
-I'm a self-taught developer and food entrepreneur based in Bangor, Maine. My work sits at the intersection of **AI systems**, **restaurant technology**, and **full-stack engineering** — all united under the [CulinaryOS](https://github.com/ShadowWalkerNC/CulinaryOS) umbrella. I build tools that solve real operational problems in food service, while also exploring AI agent orchestration, self-hosted workspaces, and content platforms.
+I'm **Nate** — a self-taught developer, café founder, and food service operator from Bangor, Maine. I build interconnected software ecosystems at the intersection of **AI**, **restaurant technology**, and **full-stack engineering** under the [CulinaryOS](https://github.com/ShadowWalkerNC/CulinaryOS) umbrella.
 
-All of my projects follow the **Universal Process Architecture (UPA)** — a shared framework for session bootstrapping, contribution standards, and AI-assisted development. See [`.github`](https://github.com/ShadowWalkerNC/.github) for details.
+By day I'm a shift-level manager working with special dietary needs populations. By night I'm building **Half Baked Café & Bakehouse** — a Maine-inspired brick-and-mortar café and scratch bakehouse — and the software stack that will run it. My thinking style is **Concrete Random**: intuitive, experimental, connecting dots others miss. I learn by doing and get bored fast with linear processes.
+
+> *Not a resume. Not a LinkedIn bio. Just someone building real things in the real world.*
 
 ---
 
@@ -32,27 +35,24 @@ All of my projects follow the **Universal Process Architecture (UPA)** — a sha
 | Project | Description | Stack | Repo | Live |
 |---|---|---|---|---|
 | **CulinaryOS** | Comprehensive restaurant management & recipe platform | TypeScript | [GitHub](https://github.com/ShadowWalkerNC/CulinaryOS) | — |
-| **RecipeOS** | Recipe creation, scaling, and kitchen management functions | TypeScript | [GitHub](https://github.com/ShadowWalkerNC/RecipeOS) | — |
-| **RestRevive-AI** | Restaurant operations intelligence platform | React 18, Supabase, Anthropic API | [GitHub](https://github.com/ShadowWalkerNC/RestRevive-AI) | — |
-| **Post-Pilot** | Automated social media post generator for F&B — publishes to Facebook & Instagram via Meta Graph API | Python | [GitHub](https://github.com/ShadowWalkerNC/Post-Pilot) | [Live](https://post-pilot-opal.vercel.app) |
+| **RecipeOS** | Recipe creation, scaling, and kitchen management | TypeScript | [GitHub](https://github.com/ShadowWalkerNC/RecipeOS) | — |
+| **RestRevive-AI** | Restaurant operations intelligence platform | React 18, Supabase, Anthropic | [GitHub](https://github.com/ShadowWalkerNC/RestRevive-AI) | — |
+| **Post-Pilot** | Automated F&B social posts — Facebook & Instagram via Meta Graph API | Python | [GitHub](https://github.com/ShadowWalkerNC/Post-Pilot) | [Live](https://post-pilot-opal.vercel.app) |
 | **Cheezies Gourmet** | Gourmet food brand web app | JavaScript | [GitHub](https://github.com/ShadowWalkerNC/cheezies-gourmet) | [Live](https://cheezies-gourmet.vercel.app) |
-
----
 
 ### 🧱 Dev Platforms & Tools
 
 | Project | Description | Stack | Repo | Live |
 |---|---|---|---|---|
-| **NexCMS** | Custom website builder and content management system | React, Supabase | [GitHub](https://github.com/ShadowWalkerNC/NexCMS) | — |
 | **ShadowRealm** | Self-hosted AI workspace — chat, agents, research, documents, email, notes, tasks & calendar | Python, JS | [GitHub](https://github.com/ShadowWalkerNC/ShadowRealm) | — |
-
----
+| **NexCMS** | Custom website builder and content management system | React, Supabase | [GitHub](https://github.com/ShadowWalkerNC/NexCMS) | — |
+| **Sigil** | Discord bot & brand builder | TypeScript | [GitHub](https://github.com/ShadowWalkerNC/Sigil) | — |
 
 ### 📖 Other
 
-| Project | Description | Stack | Repo | Live |
-|---|---|---|---|---|
-| **BibleDesk** | Free AI-powered Bible study platform — scripture analysis, historical context, Hebrew/Greek, theological meaning & practical application | TypeScript | [GitHub](https://github.com/ShadowWalkerNC/BibleDesk) | — |
+| Project | Description | Stack | Repo |
+|---|---|---|---|
+| **BibleDesk** | AI-powered Bible study — scripture analysis, Hebrew/Greek, historical context | TypeScript | [GitHub](https://github.com/ShadowWalkerNC/BibleDesk) |
 
 ---
 
@@ -74,14 +74,28 @@ All of my projects follow the **Universal Process Architecture (UPA)** — a sha
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ShadowWalkerNC&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShadowWalkerNC&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ShadowWalkerNC&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShadowWalkerNC&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ShadowWalkerNC&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=ShadowWalkerNC&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-> 📍 Bangor, Maine · [CulinaryOS](https://github.com/ShadowWalkerNC/CulinaryOS)
+## 🎵 Sound of the Build
+
+> *Jelly Roll · Struggle Jennings · Zach Bryan · Yelawolf*
+
+The music playing while the code gets written.
+
+---
+
+## 📋 Standards & Process
+
+All repositories follow the [Universal Process Architecture (UPA)](https://github.com/ShadowWalkerNC/.github) — a shared framework for session bootstrapping, contribution standards, and AI-assisted development.
+
+---
+
+> 📍 Bangor, Maine &nbsp;·&nbsp; [CulinaryOS](https://github.com/ShadowWalkerNC/CulinaryOS) &nbsp;·&nbsp; *Half Baked Café & Bakehouse — coming soon*
