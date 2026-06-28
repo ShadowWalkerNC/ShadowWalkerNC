@@ -68,6 +68,8 @@ I'm **Nate** — a self-taught developer and professional cook from Bangor, Main
 
 ### 🍽️ Food & Restaurant Tech
 
+> **CulinaryOS Ecosystem** — RecipeOS, RestRevive-AI, and CulinaryOS are each fully independent products. They run standalone out of the box, but are designed to optionally bridge together — with CulinaryOS as the central hub when an operator wants the full connected suite.
+
 <table>
   <tr>
     <th>Project</th>
@@ -77,15 +79,15 @@ I'm **Nate** — a self-taught developer and professional cook from Bangor, Main
     <th>Links</th>
   </tr>
   <tr>
-    <td><b>CulinaryOS</b></td>
-    <td>Web-based SaaS restaurant OS — POS · KDS · Inventory · Payments · Online Ordering · MCP servers · Ratio Blueprint Engine</td>
+    <td><b>CulinaryOS</b> 🌐</td>
+    <td>Web-based SaaS restaurant OS — POS · KDS · Inventory · Payments · Online Ordering · MCP servers · Ratio Blueprint Engine. <em>Hub for the CulinaryOS ecosystem — RecipeOS &amp; RestRevive-AI can bridge in.</em></td>
     <td><img src="https://skillicons.dev/icons?i=ts,react,supabase" height="20" title="TypeScript · React 18 · Hono · Supabase · Turborepo" /></td>
     <td>🟡 Phase 0–8</td>
     <td><a href="https://github.com/ShadowWalkerNC/CulinaryOS">GitHub</a></td>
   </tr>
   <tr>
     <td><b>RecipeOS</b></td>
-    <td>Android companion for CulinaryOS — recipe scaling, prep list generation, Ratio Blueprint Engine on-device</td>
+    <td>Android recipe &amp; prep companion — recipe scaling, prep list generation, Ratio Blueprint Engine on-device. <em>Standalone app; bridges into CulinaryOS when connected.</em></td>
     <td><img src="https://skillicons.dev/icons?i=kotlin,androidstudio" height="20" title="Kotlin · Jetpack Compose · Room · Supabase-kt" /></td>
     <td>🟡 In Dev</td>
     <td><a href="https://github.com/ShadowWalkerNC/RecipeOS">GitHub</a></td>
@@ -99,7 +101,7 @@ I'm **Nate** — a self-taught developer and professional cook from Bangor, Main
   </tr>
   <tr>
     <td><b>RestRevive-AI</b></td>
-    <td>Restaurant operations intelligence platform — AI diagnostics across labor, food cost &amp; service · anomaly detection · real-time KPI dashboards · Claude-powered recommendations. Beta pilot at Seasons Bar &amp; Grill</td>
+    <td>Restaurant operations intelligence platform — AI diagnostics across labor, food cost &amp; service · anomaly detection · real-time KPI dashboards · Claude-powered recommendations. Beta pilot at Seasons Bar &amp; Grill. <em>Standalone product; bridges into CulinaryOS when connected.</em></td>
     <td><img src="https://skillicons.dev/icons?i=react,supabase" height="20" title="React 18 · Supabase · Anthropic Claude" /></td>
     <td>🟡 Beta Pilot</td>
     <td><a href="https://github.com/ShadowWalkerNC/RestRevive-AI">GitHub</a></td>
@@ -244,6 +246,11 @@ DB / Auth / Realtime: Supabase (PostgreSQL + RLS)
 Payments: Stripe Elements · Stripe Terminal (Phase 11)
 AI: Anthropic Claude (claude-sonnet) — cloud-only, no on-device
 CI/CD: GitHub Actions
+
+Ecosystem Bridge (planned):
+  RecipeOS     → standalone Android app; optionally links to CulinaryOS recipe/prep data
+  RestRevive-AI → standalone ops intelligence; optionally links to CulinaryOS labor/cost data
+  Hub:           CulinaryOS — all three can operate independently or as a unified suite
 ```
 
 > **Ratio Blueprint Engine** — Every other POS stores `bread_flour: 500g`. CulinaryOS stores `bread_flour: 100%` (baker's percentage) and understands the *relationship*. True prep scaling, food cost projection, and AI menu assistance.
