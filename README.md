@@ -14,13 +14,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ShadowWalkerNC/CulinaryOS"><img src="https://img.shields.io/badge/🍽️_CulinaryOS-In_Build-yellow?style=for-the-badge" /></a>
+  <a href="https://github.com/ShadowWalkerNC/CulinaryOS"><img src="https://img.shields.io/badge/🍽️_CulinaryOS-In_Dev-yellow?style=for-the-badge" /></a>
   &nbsp;
-  <a href="https://github.com/ShadowWalkerNC/KitchenKit"><img src="https://img.shields.io/badge/🔀_KitchenKit-LIVE-brightgreen?style=for-the-badge" /></a>
+  <a href="https://github.com/ShadowWalkerNC/KitchenKit"><img src="https://img.shields.io/badge/🍳_KitchenKit-In_Dev-yellow?style=for-the-badge" /></a>
   &nbsp;
-  <a href="https://github.com/ShadowWalkerNC/CulinaryOps"><img src="https://img.shields.io/badge/📊_CulinaryOps-LIVE-brightgreen?style=for-the-badge" /></a>
+  <a href="https://github.com/ShadowWalkerNC/CulinaryOps"><img src="https://img.shields.io/badge/📊_CulinaryOps-In_Dev-yellow?style=for-the-badge" /></a>
   &nbsp;
-  <a href="https://post-pilot-opal.vercel.app"><img src="https://img.shields.io/badge/🚀_Post--Pilot-LIVE-brightgreen?style=for-the-badge" /></a>
+  <a href="https://github.com/ShadowWalkerNC/Post-Pilot"><img src="https://img.shields.io/badge/🚀_Post--Pilot-In_Dev-yellow?style=for-the-badge" /></a>
   &nbsp;
   <a href="mailto:shadowwalkernc@gmail.com"><img src="https://img.shields.io/badge/Email-shadowwalkernc@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
@@ -37,7 +37,7 @@
 
 - 🧑‍🍳 **Professional cook turned self-taught developer** — Bangor, Maine
 - 🏗️ **Building a vertically integrated food-tech ecosystem** — 4 products, 9 MCP servers, one AI-native network
-- 🫶 **Opening [Half Baked Café & Bakehouse](https://github.com/ShadowWalkerNC) in 2027** — everything I'm building will run in that kitchen on day one
+- 🫶 **Opening Half Baked Café & Bakehouse in 2027** — everything I'm building will run in that kitchen on day one
 - 🧠 **Concrete Random thinker** — I pattern-match across domains most people keep separate (kitchen ops, software architecture, AI tooling)
 - 📐 **Philosophy:** Build for operators, not investors. Ship real things that run in real kitchens.
 
@@ -47,10 +47,10 @@
 
 | Focus | Status | Next Milestone |
 |---|---|---|
-| **CulinaryOS** — full restaurant SaaS OS | 🟡 Active build — Turborepo monorepo | POS tablet UI + Stripe Terminal integration |
-| **KitchenKit** — recipe · meal plan · pantry · nutrition | ✅ Live — Supabase + MCP wired | Mobile PWA polish + offline support |
-| **CulinaryOps** — BOH ops SaaS | ✅ Live — dashboard + all 4 engines | Multi-location support + CSV import |
-| **Post-Pilot** — AI F&B social SaaS | ✅ Live — Phase 5 | Image generation + scheduling UI |
+| **CulinaryOS** — full restaurant SaaS OS | 🟡 In Dev — Turborepo monorepo | POS tablet UI + Stripe Terminal integration |
+| **KitchenKit** — recipe · meal plan · pantry · nutrition | 🟡 In Dev — Supabase + MCP wired | Recipe CRUD + Ratio Blueprint Engine |
+| **CulinaryOps** — BOH ops SaaS | 🟡 In Dev — 4 engine packages scaffolded | Labor + food cost dashboards |
+| **Post-Pilot** — AI F&B social SaaS | 🟡 In Dev — Phase 5 active | Image generation + scheduling UI |
 
 ---
 
@@ -69,18 +69,18 @@
 │              Scheduling · Reporting · AI Hub (MCP)                  │
 └────────────────────┬────────────────────────────────────────────────┘
                      │  culinaryos-mcp  (master router)
-         ┌───────────┼───────────┬──────────────┐
-         ▼           ▼           ▼              ▼
-   ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────────┐
-   │KitchenKit│ │CulinaryOps│ │Post-Pilot│ │   NexCMS     │
-   │🔀 LIVE   │ │📊 LIVE   │ │🚀 LIVE  │ │🟡 In Dev    │
-   │recipe·   │ │labor·    │ │AI social │ │restaurant    │
-   │meal plan·│ │food cost·│ │posts →   │ │website       │
-   │pantry·   │ │waste·    │ │FB+IG     │ │builder       │
-   │shopping· │ │vendors·  │ │          │ │              │
-   │nutrition │ │POs       │ │          │ │              │
-   └──────────┘ └──────────┘ └──────────┘ └──────────────┘
-kitchenkit-mcp  culinaryops-mcp  postpilot-mcp (future)
+         ┌───────────┼─────────────┬──────────────┐
+         ▼           ▼             ▼              ▼
+   ┌──────────┐ ┌────────────┐ ┌──────────┐ ┌──────────────┐
+   │KitchenKit│ │CulinaryOps │ │Post-Pilot│ │   NexCMS     │
+   │🟡 In Dev │ │🟡 In Dev   │ │🟡 In Dev │ │🟡 In Dev    │
+   │recipe·   │ │labor·      │ │AI social │ │restaurant    │
+   │meal plan·│ │food cost·  │ │posts →   │ │website       │
+   │pantry·   │ │waste·      │ │FB+IG     │ │builder       │
+   │shopping· │ │vendors·    │ │          │ │              │
+   │nutrition │ │POs         │ │          │ │              │
+   └──────────┘ └────────────┘ └──────────┘ └──────────────┘
+ kitchenkit-mcp  culinaryops-mcp  postpilot-mcp (future)
 ```
 
 <br/>
@@ -104,19 +104,19 @@ kitchenkit-mcp  culinaryops-mcp  postpilot-mcp (future)
       <img src="https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logoColor=white"/>
     </td>
     <td>Full web SaaS restaurant OS — POS · KDS · Inventory · Payments (Stripe Terminal) · Online Ordering · Reservations · Scheduling · Reporting · AI hub via MCP. <em>Hub of the entire ecosystem.</em></td>
-    <td>🟡 In Build</td>
+    <td>🟡 In Dev</td>
     <td><a href="https://github.com/ShadowWalkerNC/CulinaryOS">GitHub</a></td>
   </tr>
   <tr>
     <td>
-      <b>KitchenKit</b> 🔀<br/>
+      <b>KitchenKit</b> 🍳<br/>
       <img src="https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
       <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white"/>
       <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
       <img src="https://img.shields.io/badge/MCP-A78BFA?style=flat-square&logoColor=white"/>
     </td>
     <td>Recipe manager · meal planner · pantry · shopping list · nutrition — Ratio Blueprint Engine, mise en place, prep lists. Standalone for home cooks, caterers & personal chefs. Bridges into CulinaryOS via <code>kitchenkit-mcp</code>. <em>Merges RecipeOS + PrepFlow.</em></td>
-    <td>✅ Live</td>
+    <td>🟡 In Dev</td>
     <td><a href="https://github.com/ShadowWalkerNC/KitchenKit">GitHub</a></td>
   </tr>
   <tr>
@@ -127,8 +127,8 @@ kitchenkit-mcp  culinaryops-mcp  postpilot-mcp (future)
       <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
       <img src="https://img.shields.io/badge/MCP-A78BFA?style=flat-square&logoColor=white"/>
     </td>
-    <td>B2B back-of-house ops SaaS — labor cost, food cost, waste tracking, vendor & PO management, live KPI dashboard (auto-refreshes 60s). Standalone for GMs, operators & consultants. Bridges into CulinaryOS via <code>culinaryops-mcp</code>. <em>Renamed from RestRevive-AI.</em></td>
-    <td>✅ Live</td>
+    <td>B2B back-of-house ops SaaS — labor cost, food cost, waste tracking, vendor & PO management, live KPI dashboard. Standalone for GMs, operators & consultants. Bridges into CulinaryOS via <code>culinaryops-mcp</code>. <em>Renamed from RestRevive-AI.</em></td>
+    <td>🟡 In Dev</td>
     <td><a href="https://github.com/ShadowWalkerNC/CulinaryOps">GitHub</a></td>
   </tr>
   <tr>
@@ -140,8 +140,8 @@ kitchenkit-mcp  culinaryops-mcp  postpilot-mcp (future)
       <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white"/>
     </td>
     <td>AI-generated F&B social posts → Facebook & Instagram via Meta Graph API. Flask SaaS with Stripe billing (3 plans), magic-link auth, Vercel Cron scheduler. Future: <code>postpilot-mcp</code> bridge.</td>
-    <td>✅ Live — Phase 5</td>
-    <td><a href="https://github.com/ShadowWalkerNC/Post-Pilot">GitHub</a> · <a href="https://post-pilot-opal.vercel.app">Live</a></td>
+    <td>🟡 In Dev — Phase 5</td>
+    <td><a href="https://github.com/ShadowWalkerNC/Post-Pilot">GitHub</a></td>
   </tr>
   <tr>
     <td>
@@ -159,8 +159,8 @@ kitchenkit-mcp  culinaryops-mcp  postpilot-mcp (future)
       <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
     </td>
     <td>Gourmet food brand web presence</td>
-    <td>✅ Live</td>
-    <td><a href="https://github.com/ShadowWalkerNC/cheezies-gourmet">GitHub</a> · <a href="https://cheezies-gourmet.vercel.app">Live</a></td>
+    <td>🟡 In Dev</td>
+    <td><a href="https://github.com/ShadowWalkerNC/Cheezies-Gourmet">GitHub</a></td>
   </tr>
 </table>
 
@@ -488,10 +488,10 @@ Deploy:       LAN stream with --host 0.0.0.0
 *When the IDE opens, so does the playlist.*
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Jelly_Roll-🎵-8B0000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Struggle_Jennings-🎵-2F4F4F?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Zach_Bryan-🎵-8B4513?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Yelawolf-🎵-1C1C1C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Jelly_Roll-Country_Hip--Hop-8B0000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Struggle_Jennings-Underground-2F4F4F?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Zach_Bryan-Americana-8B4513?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Yelawolf-Southern_Rap-1C1C1C?style=for-the-badge" />
 </p>
 
 ---
