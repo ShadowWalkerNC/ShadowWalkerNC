@@ -62,14 +62,14 @@
 <br/>
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────────────────────────┐
 │                        CulinaryOS  🌐                               │
 │         Full Web SaaS Restaurant OS  ·  Turborepo Monorepo          │
 │   POS · KDS · Inventory · Payments · Ordering · Reservations        │
 │              Scheduling · Reporting · AI Hub (MCP)                  │
-└────────────────────┬────────────────────────────────────────────────┘
+└────────────────────┬─────────────────────────────────────────────────┘
                      │  culinaryos-mcp  (master router)
-         ┌───────────┼─────────────┬──────────────┐
+         ┌───────────┼─────────────────┬──────────────────┐
          ▼           ▼             ▼              ▼
    ┌──────────┐ ┌────────────┐ ┌──────────┐ ┌──────────────┐
    │KitchenKit│ │CulinaryOps │ │Post-Pilot│ │   NexCMS     │
@@ -227,7 +227,7 @@
       <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
     </td>
     <td>AI Bible study — Hebrew/Greek, historical context, 5-dimension answers</td>
-    <td>🔴 Reset</td>
+    <td>🟡 In Dev</td>
     <td><a href="https://github.com/ShadowWalkerNC/BibleDesk">GitHub</a></td>
   </tr>
 </table>
