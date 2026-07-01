@@ -184,18 +184,26 @@
   <tr>
     <td>
       <b>Shoreline</b> 🏠<br/>
+      <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+    </td>
+    <td>Senior living facility operations platform — resident records, dietary management, menu planning, production worksheets, maintenance ticketing, staff scheduling, budget tracking, multi-role access (Staff · Admin · HQ). <strong>v4 stable & deployed.</strong> Superseded by Shoreline v5.</td>
+    <td>✅ Stable (v4)</td>
+    <td><a href="https://github.com/ShadowWalkerNC/Shoreline">GitHub</a></td>
+  </tr>
+  <tr>
+    <td>
+      <b>Shoreline v5</b> 🏠🔨<br/>
       <img src="https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
       <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
       <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
       <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white"/>
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
       <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
       <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white"/>
     </td>
-    <td>Senior living facility operations platform — resident records, dietary management, menu planning, production worksheets, maintenance ticketing, staff scheduling, budget tracking, multi-role access (Staff · Admin · HQ). <strong>v4 stable · v5 full rebuild in progress</strong> — migrating from vanilla JS to React + Vite + TypeScript + Tailwind, PostgreSQL + Prisma backend, and Next.js for the final SaaS layer. Built to scale to a real multi-facility SaaS product.</td>
-    <td>🟡 v5 Rebuild</td>
-    <td><a href="https://github.com/ShadowWalkerNC/Shoreline">GitHub</a></td>
+    <td>Full ground-up rebuild of Shoreline — migrating from vanilla JS to React 18 + Vite + TypeScript + Tailwind, PostgreSQL + Prisma backend, Next.js SaaS layer. Built to scale to a real multi-facility SaaS product. <em>Replaces Shoreline v4.</em></td>
+    <td>🟡 Active Rebuild</td>
+    <td><a href="https://github.com/ShadowWalkerNC/shoreline-v5">GitHub</a></td>
   </tr>
 </table>
 
@@ -238,6 +246,15 @@
     <td>AI Bible study — Hebrew/Greek, historical context, 5-dimension answers</td>
     <td>🟡 In Dev</td>
     <td><a href="https://github.com/ShadowWalkerNC/BibleDesk">GitHub</a></td>
+  </tr>
+  <tr>
+    <td>
+      <b>.github</b> 🔒<br/>
+      <img src="https://img.shields.io/badge/Markdown-000?style=flat-square&logo=markdown&logoColor=white"/>
+    </td>
+    <td>Universal process standards, UPA framework, and AI session bootstrap templates for all ShadowWalkerNC repositories. Internal use.</td>
+    <td>🔒 Internal</td>
+    <td><a href="https://github.com/ShadowWalkerNC/.github">GitHub</a></td>
   </tr>
 </table>
 
