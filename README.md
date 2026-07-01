@@ -54,13 +54,15 @@
 
 ## 👤 About Me
 
-I got into computers as a teenager — building websites for fun, doing computer repair out of the house. I figured out early that if something was broken, I wanted to be the one to fix it. That applied to machines and eventually to kitchens too.
+I got into computers as a teenager — building websites, doing hardware repair out of the house. Not a class, just curiosity. I tore things apart to figure out how they worked, fixed them when I could, and moved on. That habit never really left.
 
-I spent a decade cooking professionally — every station, every shift type, every kind of service. Not as a hobby. As a job, in real restaurants, with real pressure. Somewhere along the way I looked at the software running those places and thought: *this is embarrassing.* Clunky systems that cost a fortune, built by people who'd never worked a line. Toast and Square weren't built by cooks. I was.
+Then I went into kitchens. Not as a side thing — as a job, for over a decade. Every station, every shift type, every kind of pressure. Catering, restaurants, institutional food service. The kind of work where you either figure it out fast or you're in the weeds and everyone knows it. I got good at it the same way I got good at computers: by doing it over and over until I stopped making the same mistakes.
 
-So I went back to coding — not to switch careers, but to bridge the gap between the two things I actually know. Everything I build lives at that intersection. The kitchen taught me how to work under pressure, eliminate waste, and never ship something half-done. The tech background taught me how to think in systems. Together, those two things make me build differently than most food-tech developers.
+Somewhere in the middle of all that, I started looking at the software running these places. The POS systems, the scheduling tools, the inventory apps. Expensive, clunky, and almost always built by people who had clearly never worked a line. Toast didn't come from a cook. Square didn't either. The gap between what these tools claimed to do and what actually happens in a real kitchen during a Saturday dinner rush is enormous — and obvious the second you've stood in that kitchen.
 
-I'm currently working toward opening **Half Baked Café & Bakehouse** in 2027. Everything I'm building is going to run in that kitchen on day one — that's not a pitch, that's the plan.
+So I went back to coding. Not as a career pivot. Just to build the version that doesn't make me want to throw something. Everything I'm working on comes directly out of problems I ran into in actual kitchens — food cost visibility, scheduling, recipe scaling, waste tracking, social media posts that don't sound like a marketing agency wrote them. None of it is theoretical. I've felt all of it firsthand.
+
+Right now I'm building toward opening **Half Baked Café & Bakehouse** in Bangor in 2027. Everything I'm building is going to run in that kitchen. That's not a pitch — it's just the reason none of this is going to be half-done.
 
 <details>
 <summary><b>🧭 The Full Timeline — Click to expand</b></summary>
