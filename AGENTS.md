@@ -11,8 +11,8 @@
 ```
 Project:      ShadowWalkerNC
 Description:  GitHub Profile README
-Status:       planning
-Phase:        0 — Initial setup
+Status:       active
+Phase:        Profile maintenance
 Priority:     active
 ```
 
@@ -21,12 +21,14 @@ Priority:     active
 ## Tech Stack
 
 ```
-Language:     Detected: Unknown — update manually
-Framework:    [e.g. React + Vite, Node.js, Android (Jetpack Compose)]
-Database:     [e.g. Supabase (PostgreSQL), SQLite]
-Hosting:      [e.g. Railway, Vercel, self-hosted]
-Key APIs:     [e.g. Anthropic Claude, Stripe, Google Maps]
-CI/CD:        [e.g. GitHub Actions, manual]
+Language:     Markdown · HTML · CSS (inline in README)
+Framework:    None — plain GitHub profile README
+Database:     None
+Hosting:      GitHub Pages / raw.githubusercontent.com (assets)
+Key APIs:     External badge & image services: capsule-render.vercel.app, komarev.com,
+              shields.io, readme-typing-svg.demolab.com, github-readme-stats.vercel.app,
+              streak-stats.demolab.com, github-readme-activity-graph.vercel.app
+CI/CD:        Manual commits to main
 ```
 
 ---
@@ -34,16 +36,10 @@ CI/CD:        [e.g. GitHub Actions, manual]
 ## Repository Structure
 
 ```
-[paste top-level directory tree with one-line descriptions]
-
-Example:
-src/
-  components/    ← React UI components
-  lib/           ← shared utilities and helpers
-  routes/        ← page-level route components
-supabase/
-  migrations/    ← all DB migrations (forward-only)
-public/          ← static assets
+README.md          ← the profile page content (THE key file)
+AGENTS.md          ← this file — agent context for this repo
+assets/
+  Shadow-Realm.PNG ← profile logo (must stay optimized, used at width="96")
 ```
 
 ---
@@ -51,11 +47,12 @@ public/          ← static assets
 ## Key Files for Every Agent Session
 
 ```
-ARCHITECTURE.md    ← system design, data flows, module responsibilities
-TODO.md            ← current open work — read this every session
-CHANGELOG.md       ← record of what changed and when
-.env.example       ← required environment variables (no values)
+README.md          ← entire deliverable — the profile page that renders on github.com/ShadowWalkerNC
+AGENTS.md          ← this file
 ```
+
+> ARCHITECTURE.md, TODO.md, CHANGELOG.md, and `.env.example` do **not** exist in this repo.
+> This is a docs-only repository — the README *is* the product.
 
 ---
 
@@ -65,15 +62,8 @@ Default agents per AGENT_DISPATCH activation matrix. List any project-specific o
 
 ```
 Always active:  COHERENCE · SECURITY · DOCS
-Project default on-demand: [list agents most commonly needed for this project]
-Rarely needed:  [list agents to skip unless explicitly required]
-```
-
-Example for a React + Supabase app:
-```
-Always active:  COHERENCE · SECURITY · DOCS
-Project default: ENGINEER · DATABASE · UX · QA
-Rarely needed:  BUSINESS · AI (load only when working on AI features)
+Project default on-demand: DOCS (primary) — every change to this repo is documentation
+Rarely needed:  ENGINEER · DATABASE · UX · QA · BUSINESS · AI
 ```
 
 ---
@@ -84,12 +74,15 @@ List any rules that override or extend the global AGENTS.md for this project onl
 Global Tier 1–3 rules cannot be overridden here.
 
 ```
-[Example rules:]
-- All Supabase migrations must be reviewed by DATABASE agent before any push.
-- Components must follow the design system in /src/components/ui/.
-- Do not touch the /supabase/seed.sql file without explicit permission.
-- All API routes require auth middleware — no exceptions.
-- Branch naming: feature/[ticket-id]-[short-description]
+- Keep the README accurate: project statuses, repo links, and milestones must match the
+  real state of the public repos they point to — never link a repo that is private or missing.
+- Optimize every image before committing. Target < 200 KB per file. The logo is displayed
+  at width="96" — do not commit oversized source images.
+- The profile README relies on external badge/image services. When adding one, verify it
+  renders and that its URL pattern will not expire or depend on private repo data.
+- Do not commit files that are not referenced by the README (or this file).
+- Direct commits to main are fine for this repo; commits must be small and focused
+  (one concern per commit).
 ```
 
 ---
@@ -98,7 +91,7 @@ Global Tier 1–3 rules cannot be overridden here.
 
 | Variable | Required | Description |
 |---|---|---|
-| `[VAR_NAME]` | Yes / No | [what it does] |
+| *(none)* | — | This repo has no environment variables or secrets. |
 
 Never commit values. Always use `.env.example` for the key list.
 
@@ -107,10 +100,13 @@ Never commit values. Always use `.env.example` for the key list.
 ## Current Phase Context
 
 ```
-Phase goal:     [what this phase is trying to accomplish]
-Definition of done: [how we know this phase is complete]
-Blocking issues: [anything preventing progress]
-Next phase:     [what comes after this]
+Phase goal:     Keep the profile accurate, fast-loading, and professional while the
+                CulinaryOS suite and other projects are in active development.
+Definition of done: Every project table row, badge, and repo link reflects the current
+                public state; assets are optimized; no broken images or dead links.
+Blocking issues: None.
+Next phase:     Update the "Now Building" milestones as CulinaryOS / KitchenKit /
+                CulinaryOps / Post-Pilot progress or launch.
 ```
 
 ---
@@ -120,10 +116,15 @@ Next phase:     [what comes after this]
 List anything an agent should be aware of before working in this repo:
 
 ```
-[Example:]
-- The auth flow has a known race condition in offline mode — do not modify without reading issue #42.
-- Migration 0004 has a manual data step — see ARCHITECTURE.md §3.2 before running.
-- The scheduler module is tightly coupled to the timezone utility — changes to either affect both.
+- All dynamic badges/stats depend on third-party services (vercel, komarev, shields.io,
+  demolab). If one is down or rate-limited, the profile will show broken images — the
+  README itself is not at fault.
+- github-readme-stats `count_private` only reflects public activity; private repo work
+  will not show in the contribution graph widgets.
+- The README is large (~35 KB). GitHub fully renders profile READMEs, but keep additions
+  lean — prefer details/summary blocks for long content.
+- Repo links must be validated when projects are renamed or archived (e.g. Shoreline → 
+  ShorelineOps, RestRevive-AI → CulinaryOps).
 ```
 
 ---
@@ -134,18 +135,13 @@ After loading this file, the agent must add to its `DISPATCH CONFIRMED` block:
 
 ```
 Project AGENTS.md: loaded
-Project: [name]
-Stack: [language + framework]
-Phase: [current phase]
-Project rules active: [count] overrides
-Known issues noted: [yes | none]
+Project: ShadowWalkerNC
+Stack: Markdown / HTML / CSS — GitHub profile README
+Phase: Profile maintenance
+Project rules active: 5 overrides
+Known issues noted: yes
 ```
 
 ---
 
-*Template version: 1.0 | Extends: ShadowWalkerNC/.github/AGENTS.md | Copy to project repo root as AGENTS.md*
-
-
----
-*Auto-generated: 2026-06-28 | Extends: ShadowWalkerNC/.github/AGENTS.md | Repo: [ShadowWalkerNC](https://github.com/ShadowWalkerNC/ShadowWalkerNC)*
-*Action required: Fill in all placeholder fields before using this repo in a session.*
+*Filled from template 1.0 | Extends: ShadowWalkerNC/.github/AGENTS.md | Repo: [ShadowWalkerNC](https://github.com/ShadowWalkerNC/ShadowWalkerNC)*
