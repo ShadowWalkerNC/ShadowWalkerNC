@@ -85,12 +85,59 @@ Right now I'm building toward opening **Half Baked Café & Bakehouse** in Bangor
 
 ## 🔨 Now Building
 
-| Project | What It Is | Status | Next Milestone |
+| Project | What It Is | Tier | Next Milestone |
 |---|---|---|---|
-| **CulinaryOS** | Full restaurant SaaS OS | 🟡 In Dev — Turborepo monorepo | POS tablet UI + Stripe Terminal |
-| **KitchenKit** | Recipe · meal plan · pantry · nutrition | 🟡 In Dev — MCP wired | Recipe CRUD + Ratio Blueprint Engine |
-| **CulinaryOps** | BOH ops SaaS | 🟡 In Dev — 4 engine packages | Labor + food cost dashboards |
-| **Post-Pilot** | AI F&B social media SaaS | 🟡 In Dev — Phase 5 | Image generation + scheduling UI |
+| **CulinaryOS** | Commercial restaurant SaaS OS | 02 - CulinaryOS Suite | POS tablet UI + Stripe Terminal |
+| **ShorelineOps** | Healthcare clinical dining operations | 02 - CulinaryOS Suite | Migration 032 PostgreSQL RLS |
+| **ForgeSatchel** | Local developer control plane | 01 - Developer Intelligence | Bounded desktop V2 TUI / GUI |
+| **JOSH** | System 1 fast intelligence engine | 01 - Developer Intelligence | CPU calibration & durable receipts |
+| **ShadowHelicon** | Custom GUI for Meta Muse Code CLI | 01 - Developer Intelligence | Tailscale mobile remote access |
+| **BibleDesk** | 5D AI theological study platform | 03 - Independent Products | Strong's Greek/Hebrew lexicons |
+| **Dominion** | Kingdom strategy simulation game | 03 - Independent Products | 103/103 tests passing standalone |
+| **Cheezies Gourmet** | Food truck production application | 04 - Client & Business Projects | Square POS inventory sync |
+
+---
+
+## 🏛️ Canonical Ecosystem Architecture
+
+The ShadowWalkerNC development universe is organized into six authoritative engineering tiers:
+
+```text
+ShadowWalkerNC/
+|-- 01-developer-intelligence/
+|   |-- ForgeSatchel : Local Developer Control Plane (Tasks, Worktrees, Authority)
+|   |-- JOSH : System 1 Deterministic Intelligence Engine (<20ms Fast Triage)
+|   |-- MuseLab : AI Experimentation & Benchmarking Lab (MUSE-001)
+|   `-- ShadowHelicon : Personal Developer GUI for Meta Muse Code CLI
+|
+|-- 02-culinaryos-suite/
+|   |-- CulinaryOS Core : Commercial Restaurant Operations Platform (Monorepo)
+|   |-- ShorelineOps : Healthcare & Clinical Dining Operations (HIPAA / RLS)
+|   |-- KitchenKit : Recipe Blueprint Ratio Engine & Shift Prep Planning
+|   |-- CulinaryOps : Labor Scheduling, Food Cost Tracking & Vendor Orders
+|   |-- Plated : Custom Restaurant Website Builder & Storefront CMS
+|   `-- Post-Pilot : AI F&B Marketing & Social Media Automation
+|
+|-- 03-independent-products/
+|   |-- BibleDesk : 5-Dimensional AI Theological Study Platform
+|   |-- Dominion : Unity C# Kingdom Strategy & Simulation Engine
+|   |-- Sigil / OpenForge : Multi-Repository Workspace Orchestration & Discord Bridge
+|   |-- Mercury : Self-Hosted Spaces & Real-Time Messaging Platform
+|   `-- Emergency-CAD : Modern Kotlin Multiplatform Computer-Aided Dispatch
+|
+|-- 04-client-and-business-projects/
+|   |-- Cheezies Gourmet : Active Food Truck Production Application (Square POS / PWA)
+|   `-- Ryan's Portal : dark-phoneix-clips Gaming Clip Vault & Stream Indicator
+|
+|-- 05-shared-engineering/
+|   |-- ScriptC : Native TypeScript Compiler (Zero-Overhead Standalone Executables)
+|   |-- Schemas & Standards : Machine-Readable JSON Schemas & Constitutions
+|   `-- Reusable SDKs : @helicon/mcp, @openforge/sdk, @muse-code/sdk
+|
+`-- 06-platform-operations/
+    `-- ShadowWalkerNC/.github : Universal Governance, Registry & Master Architecture
+```
+
 
 ---
 
